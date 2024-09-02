@@ -3,3 +3,4 @@ docutils
 recommonmark
 sphinx-rtd-theme
 myst_parser
+linkify-it-py

@@ -1,0 +1,21 @@
+# -*- mode: gitignore; -*-
+*~
+\#*\#
+auto-save-list
+.\#*
+*_flymake.*
+*_archive
+.projectile
+tags
+Session.vim
+[._]sw[a-p]
+[._]*.sw[a-p]
+tags
+.Rproj.user
+__pycache__/
+**/_build/
+auto/
+.#*
+.RData
+.Rhistory
+.vscode
