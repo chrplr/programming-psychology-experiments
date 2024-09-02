@@ -2,3 +2,4 @@ sphinx
 docutils
 recommonmark
 sphinx-rtd-theme
+myst_parser
