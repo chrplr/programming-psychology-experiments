@@ -39,10 +39,10 @@ Follow the instructions at
 
       This should display something like:
 
-       ```
-   Python 3.12.0 (main, Dec  7 2023, 17:39:28) [GCC 11.4.0] on linux
-Type "help", "copyright", "credits" or "license" for more information.
->>> 
+      ```
+      Python 3.12.0 (main, Dec  7 2023, 17:39:28) [GCC 11.4.0] on linux
+      Type "help", "copyright", "credits" or "license" for more information.
+      >>> 
       ```
 
    Type `quit()` and press `Enter` to exit python interpreter.
@@ -58,19 +58,19 @@ Type "help", "copyright", "credits" or "license" for more information.
 
       ```
       Python 3.12.0 (main, Dec  7 2023, 17:39:28) [GCC 11.4.0] on linux
-     Type "help", "copyright", "credits" or "license" for more information.
-     >>> 
-     ```
+        Type "help", "copyright", "credits" or "license" for more information.
+      >>> 
+      ```
 
    Type `quit()` and press `Enter` to exit python interpreter.
 
 3. Open a terminal (launch `git bash` in Windows) and type:
 
-   ```
-   pip install ipython matplotlib numpy pandas 
-   ```
+      ```
+      pip install ipython matplotlib numpy pandas 
+      ```
 
-Then, to install the latest developemtn version of [expyriment](http://www.experiment.org):
+Then, to install the latest development version of [expyriment](http://www.experiment.org):
 
    ```
    python -m pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple --pre expyriment
