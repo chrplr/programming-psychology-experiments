@@ -1,8 +1,13 @@
 # Software installation
 
-First, you should determine your computer's Operating System (Windows, MacOSX, Ubuntu Linux, ...) and its version, as well as the processor type (intel/amd or arm). This information can be found in the "about" or "properties" tab of the system parameters section. 
+:::{note}
+* First, you should determine your computer's Operating System (Windows, MacOSX, Ubuntu Linux, ...) and its version, as well as the processor type (intel/amd or arm). This information can be found in the "about" or "properties" tab of the system parameters section. 
 
-Note: you should be connected to the Internet and have about 3~4 GB of free space on your disk to install all the software.
+* You should be connected to the Internet and have about 3~4 GB of free space on your disk to install all the software.
+
+:::
+
+
 
 ## Visual Studio Code
 
@@ -24,21 +29,21 @@ Follow the instructions at
 
 ## Python and libraries
 
-1. Unless Python (version >= 3.8) is already installed on your computer, download and install it from <http://www.python/org>
+1. Unless Python (version >= 3.8) is already installed on your computer, download and install it from <http://www.python.org>
 
 2. Make sure you can start Python from a command line (in a Terminal).
 
    * Linux or Mac:
 
-   Open a terminal (MacOS: type `terminal` in the Spotlight search field; Linux: pressing `Ctrl-Alt-T` ), and type `python` then press 'Enter'.
+      Open a terminal (MacOS: type `terminal` in the Spotlight search field; Linux: pressing `Ctrl-Alt-T` ), and type `python` then press 'Enter'.
 
-   This should display something like:
+      This should display something like:
 
-```{console}
-Python 3.12.0 (main, Dec  7 2023, 17:39:28) [GCC 11.4.0] on linux
+       ```
+   Python 3.12.0 (main, Dec  7 2023, 17:39:28) [GCC 11.4.0] on linux
 Type "help", "copyright", "credits" or "license" for more information.
 >>> 
-```
+      ```
 
    Type `quit()` and press `Enter` to exit python interpreter.
 
@@ -51,24 +56,24 @@ Type "help", "copyright", "credits" or "license" for more information.
 
    This should display something like:
 
-```{console}
-Python 3.12.0 (main, Dec  7 2023, 17:39:28) [GCC 11.4.0] on linux
-Type "help", "copyright", "credits" or "license" for more information.
->>> 
-```
+      ```
+      Python 3.12.0 (main, Dec  7 2023, 17:39:28) [GCC 11.4.0] on linux
+     Type "help", "copyright", "credits" or "license" for more information.
+     >>> 
+     ```
 
    Type `quit()` and press `Enter` to exit python interpreter.
 
 3. Open a terminal (launch `git bash` in Windows) and type:
 
-```{console}
-pip install ipython matplotlib numpy pandas 
-```
+   ```
+   pip install ipython matplotlib numpy pandas 
+   ```
 
 Then, to install the latest developemtn version of [expyriment](http://www.experiment.org):
 
-```{console}
-python -m pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple --pre expyriment
-```
+   ```
+   python -m pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple --pre expyriment
+   ```
 
 

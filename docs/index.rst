@@ -11,6 +11,7 @@ Welcome to ppe's documentation!
    :caption: Contents:
 
    intro.md
+   cog-sup.md
    software-installation.md
    visual-stimuli.md
    reaction-times.md
