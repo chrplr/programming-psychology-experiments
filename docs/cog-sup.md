@@ -1,17 +1,33 @@
 # COG-SUP Master
 
+
+## Teachers
+
+- Sylvain Charron 
+- Christophe Pallier
+- Mark Wexler
+- Maxime Cauté
+- Elyes Tabbane 
+
+Prefered communication channel: Discord forum <https://discord.gg/WEQWWmqZ>
+
+
 ## Organisation
+
+
+1. PROG-101 Intro to programming (support for beginners) 
+2. CORE-101 Programming experiments (practical tutorials) 
+3. PROG-202 Human Experimental Workshop (DIY Projects)
 
 First semester (S1):
 
-* S1 PROG-101 Support for begginners (biweekly, Mon.) Sylvain Charron
-* S1 CORE-101 Building Experiments  (weekly Wed.) by Christophe Pallier 
+* S1 PROG-101  (1h30, biweekly, Mon.) Sylvain Charron
+* S1 CORE-101  (1h30, weekly Wed.) by Christophe Pallier 
 
 Second semester (S2):
 
-* S2 CORE-101 Building Experiments by Sylvain Charron
-* S2 PROG-202 Exeperimental workshop (DIY Projects) by  Mark Wexler
-
+* S2 CORE-101  Sylvain Charron
+* S2 PROG-202  (3h biweekly) Mark Wexler
 
 * Self-evaluation quizz (do you need to attend PROG101?):
     - <https://forms.gle/iq7CN41DZMA6XJC59>
@@ -34,7 +50,7 @@ En détail :
 
 (G4) sur la base du quizz de rentrée et de leur choix d'option ou d'un processus de sélection : étudiants (à terme ≤ 25) qui ne suivront pas PROG-202 au S2 ni PROG-101 au S1 (car à l'aise en programmation) et suivront CORE-101 au S2 afin de respecter la limite de ~40 étudiants pour le cours CORE-101 du S1 donné par Christophe.
 
-(G?) à vérifier quand même : est-il bien prévu que des étudiants du groupe débutant ou faible en programmation qui doit suivre PROG-101 au S1 et donc CORE-101 au S2 puissent suivre le cours Human Experimental Workshop de Mark au S2 (PROG-202) ?
+(G?) à vérifier quand même : est-ce que des étudiants du groupe débutant ou faible en programmation qui doit suivre PROG-101 au S1 et donc CORE-101 au S2 peuvent suivre le cours Human Experimental Workshop au S2 (PROG-202) ?
 
 
 
