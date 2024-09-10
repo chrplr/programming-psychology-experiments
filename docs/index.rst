@@ -10,8 +10,8 @@ Welcome to ppe's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   cog-sup.md	     
    intro.md
-   cog-sup.md
    software-installation.md
    visual-stimuli.md
    reaction-times.md
