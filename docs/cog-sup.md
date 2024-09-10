@@ -29,8 +29,12 @@ Second semester (S2):
 * S2 CORE-101  Sylvain Charron
 * S2 PROG-202  (3h biweekly) Mark Wexler
 
-* Self-evaluation quizz (do you need to attend PROG101?):
-    - <https://forms.gle/iq7CN41DZMA6XJC59>
+
+## Paths
+
+A [Self-evaluation quizz](https://forms.gle/iq7CN41DZMA6XJC59) was design to determine which students need to attend PROG-101. 
+
+Note: We will avoid groups to be too large.
 
 
 |                 | ne suivra pas PROG-202               | suivra PROG-202                 |
