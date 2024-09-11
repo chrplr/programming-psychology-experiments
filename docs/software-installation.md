@@ -12,7 +12,7 @@
 
 Download and install the code editor *Visual Studio Code* from <https://code.visualstudio.com/download> (*unless you already have a code editor that you are happy with*, e.g. sublime text, notepad++, spyder, pycharm, ...)
 
-
+You can accept all default options proposed during the installation.
 
 ## R and Rstudio
 
@@ -26,7 +26,9 @@ free version of RStudio Desktop from <https://posit.co/download/rstudio-desktop/
 
 ## Praat speech editor
 
-Download and install the speech editor *Praat* from <https://www.fon.hum.uva.nl/praat/>
+Download the speech editor *Praat* from <https://www.fon.hum.uva.nl/praat/>. 
+
+If you are a Windows user, you must extract the program (`praat.exe`) from the zip file. When you click on its icon to launch Praat, Windows Defender may warn you that it is threat. Do not worry and run it anayway. 
 
 
 ## Git
@@ -34,12 +36,13 @@ Download and install the speech editor *Praat* from <https://www.fon.hum.uva.nl/
 Install the version control software *Git*, following the instructions at 
 <https://git-scm.com/book/en/v2/Getting-Started-Installing-Git>
 
+Under Windows, you will download the Git for Windows installer from <https://git-scm.com/download/win>
 
 :::{note} Windows only.
-   **IMPORTANT**: When proposed to adjust the PATH environment variable,  tick the box "Use Git and optional unix tools from the command line prompt". (You can accept all the other defaults).
+   **IMPORTANT**: During the installation, you can accept all defaults EXCEPT for the "Adjusting your PATH environment" page, where you must tick the box  "Use Git and optional unix tools from the command line prompt". (You can accept all the other defaults).
 :::
 
-### configuration
+### git local configuration
 
 After the installation, start `Git bash` if you are under Windows or open a terminal if you are under MacOSX or Linux (MacOS: type `terminal` in the Spotlight search field; Linux: press `Ctrl-Alt-T` ), and type the following lines, after replacing `firstname`, `lastname` and `your_email` by your personal information:
 
@@ -50,20 +53,43 @@ After the installation, start `Git bash` if you are under Windows or open a term
     git config --global core.editor nano
 
 
+
+
 You can now close the terminal by typing the command `exit` or, faster, by pressing `Ctrl-D`, or by just closing its window.
 
 
 ## Python
 
-1. Unless Python3, version >= 3.8, is already installed on your computer, download and install it from <http://www.python.org>
+1. Unless Python3, version >= 3.8, is already installed on your computer, download and install it from <http://www.python.org>. 
 
-2. Make sure you can start Python from a command line.
+Important. Make sure to select 'Add python.exe to PATH' when running the installer under Windows.
+
+2. Check that you can start Python from a command line.
 
     * Windows:
+	
+	    Start `Git Bash`. This should open a terminal with a blinking cursor, type the following command line: 
+	   
+	   ```
+	   echo "alias python='winpty python.exe'" >> ~/.bash_profile
+	   ```
+	   
+	   and press `Enter` to execute the command.
+	   
+	   Close Git Bash, and reopen it again (this runs the `.bash_profile` script).
 
-       After installing Python, make sure to add the location (folder) of `python.exe` to the `PATH` environement variable, following the instructions at <https://realpython.com/add-python-to-path/>
+	
+	   Type `python` on the command line, then press `enter`.
+
+       If you computer displays
+      ```
+      python: command not found
+	  ```
+	  
+       then you must add the location (folder) of `python.exe` to the `PATH` environment variable. Instructions to do this are provided at <https://realpython.com/add-python-to-path/>
   
-       Then, start `Git Bash`. This should open a terminal with a blinking cursor. Type `python` then press `enter`. This should display something like:
+
+       Otherwise, you should see a display like:
 
       ```
       Python 3.12.0 (main, Dec  7 2023, 17:39:28) [GCC 11.4.0] on linux
@@ -89,11 +115,6 @@ You can now close the terminal by typing the command `exit` or, faster, by press
 
     Type `quit()` and press `Enter` to exit python interpreter.
 
-    If you computer displayed
-      ```
-      python: command not found
-	  ```
-    then ask for help to the professors.
 
 
 ## Basic python libraries
@@ -108,7 +129,7 @@ pip install ipython jupyter numpy matplotlib pandas
 ## Pygame
 
 [Pygame](http://www.pygame.org) is a python module to program simple video games 
-In terminal, type:
+In a Terminal, type:
 ```
 pip install pygame
 ```

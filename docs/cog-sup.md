@@ -15,9 +15,30 @@ Prefered communication channel: Discord forum <https://discord.gg/WEQWWmqZ>
 ## Organisation
 
 
-1. PROG-101 Intro to programming (support for beginners) 
-2. CORE-101 Programming experiments (practical tutorials) 
-3. PROG-202 Human Experimental Workshop (DIY Projects)
+1. **PROG-101** Introduction to programming (S1)
+    
+   For beginners (variables, constants, control strucutres, functions, ...)
+
+2. **CORE-101** Programming experiments (S1 & S2)
+
+   - learn to build experimental psychology experiments, that is, how to create visual and auditory stimuli, to present them at precise times and possibly record participants' responses and analyse them
+   - learn tools to do reproducible science (github, markdown, ...)
+   - improve  your programming skills (clean code, real-time, ...)
+
+
+   Format: Practical tutorials. 
+   
+   Prequesites: (basic knowledge of programming)
+   
+3. **PROG-202** Human Experimental Workshop (S2)
+
+   Hands-on (DIY Projects) to create a complete experiment 
+
+   (prequisites: CORE-101 and/or solid programming knowledge)
+
+
+
+Calendar
 
 First semester (S1):
 
