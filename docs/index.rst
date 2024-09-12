@@ -10,7 +10,6 @@ Welcome to ppe's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   cog-sup.md	     
    intro.md
    software-installation.md
    

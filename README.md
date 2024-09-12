@@ -1,3 +1,4 @@
 # programming-psychology-experiments
 
-go to <https://programming-psychology-experiments.readthedocs.io>
+- document <https://programming-psychology-experiments.readthedocs.io>
+- slides <https://github.com/chrplr/programming-psychology-experiments/blob/main/slides/presentation/presentation.md>
