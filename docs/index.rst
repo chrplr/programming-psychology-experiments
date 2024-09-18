@@ -12,4 +12,6 @@ Welcome to ppe's documentation!
 
    intro.md
    software-installation.md
+   stimulus-creation.md
+   
    
