@@ -121,3 +121,7 @@ See <https://pcbs.readthedocs.io/en/latest/running-python.html>
 
 
 ---
+
+# Visual stimulus creation
+
+https://programming-psychology-experiments.readthedocs.io/en/latest/stimulus-creation.html
