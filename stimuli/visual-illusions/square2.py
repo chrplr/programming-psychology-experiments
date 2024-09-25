@@ -1,4 +1,7 @@
-#! /usr/bin/env python
+fdlr99
+
+jlfdlr99
+  #! /usr/bin/env python
 # Time-stamp: <2019-10-24 14:50:38 christophe@pallier.org>
 
 """ Display a square using [pygame](http://www.pygame.org).
