@@ -11,7 +11,7 @@
 import pygame
 
 # Colors are triplets containint RGB values
-# (see <https://www.rapidtables.com/web/color/RGB_Color.html>
+# see <https://www.rapidtables.com/web/color/RGB_Color.html>
 BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
 GRAY = (127, 127, 127)

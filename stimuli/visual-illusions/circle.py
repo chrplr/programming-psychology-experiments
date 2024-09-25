@@ -2,7 +2,9 @@
 # Time-stamp: <2021-03-04 11:53:34 christophe@pallier.org>
 """ Display a circle.
 
-    See https://sites.cs.ucsb.edu/~pconrad/cs5nm/topics/pygame/drawing/
+   See:
+   - `Pygame drawing basics <https://www.cs.ucsb.edu/~pconrad/cs5nm/topics/pygame/drawing/>`__
+   - `Pygame's online documentation <https://www.pygame.org/docs/>`
 """
 
 import pygame
@@ -16,12 +18,12 @@ RED = (255, 0, 0)
 GREEN = (0, 255, 0)
 BLUE = (0, 0, 255)
 
-W, H = 500, 500  # Size of the graphic window size
+#  create the window
+W, H = 500, 500  # Size of the graphic window
 # Note that (0,0) is at the *upper* left hand corner of the screen.
 center_x = W // 2
 center_y = H // 2
 
-#  create the window
 pygame.init()
 screen = pygame.display.set_mode((W, H), pygame.DOUBLEBUF)
 pygame.display.set_caption('circle')
@@ -29,7 +31,6 @@ pygame.display.set_caption('circle')
 screen.fill(WHITE)  # fill it with white
 
 # Draw a circle at the center of the window
-width, height = 200, 200
 pygame.draw.circle(screen, RED, (center_x, center_y), 100, 0)
 
 pygame.display.flip()  # display the backbuffer
