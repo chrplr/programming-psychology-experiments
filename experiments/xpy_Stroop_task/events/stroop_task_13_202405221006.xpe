@@ -1,0 +1,26 @@
+#Expyriment 0.10.0 (Python 3.7.6), .xpe-file, coding: UTF-8
+#date: Wed May 22 2024 10:06:50
+#sha1: 403e30
+#modules: 
+#display: size=(1920, 1200), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='is154920', release='6.5.0-35-lowlatency', version='#35.1~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue May  7 11:32:45 UTC', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+3969,Stimulus,presented,17
+6194,Keyboard,received, ,wait_char
+6200,Stimulus,presented,18
+6905,Keyboard,received, ,wait_char
+11455,design,log,
+#design: #exp: Stroop Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+11455,design,logged,
+11455,Experiment,started
+11483,Stimulus,presented,15
+12487,Stimulus,presented,16
+13977,Keyboard,received, ,wait_char
+13985,Picture,loaded,Stroop_English_00.png
+13995,Stimulus,presented,6
+500721,Experiment,paused
+500740,Stimulus,presented,21
+501893,Keyboard,received,y,wait_char
+501893,Experiment,ended
+501904,Stimulus,presented,21

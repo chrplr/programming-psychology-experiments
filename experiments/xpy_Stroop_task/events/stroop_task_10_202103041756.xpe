@@ -1,0 +1,36 @@
+#Expyriment 0.10.0 (Python 3.7.9), .xpe-file, coding: UTF-8
+#date: Thu Mar 04 2021 17:56:38
+#sha1: 988884
+#modules: 
+#display: size=(3840, 2160), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='is154920', release='5.8.0-44-generic', version='#50~20.04.1-Ubuntu SMP Wed Feb 10 21:07:30 UTC 2021', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+4130,Stimulus,presented,14
+5028,Keyboard,received, ,wait_char
+5040,Stimulus,presented,15
+6068,Keyboard,received, ,wait_char
+11349,design,log,
+#design: #exp: Stroop Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+11349,design,logged,
+11349,Experiment,started
+11440,Stimulus,presented,12
+12457,Stimulus,presented,13
+13824,Keyboard,received, ,wait_char
+13831,Picture,loaded,Stroop_French_02.png
+13840,Stimulus,presented,0
+26156,Keyboard,received, ,wait_char
+26247,Stimulus,presented,12
+27257,Stimulus,presented,13
+30036,Keyboard,received, ,wait_char
+30043,Picture,loaded,Stroop_English_01.png
+30057,Stimulus,presented,6
+42012,Keyboard,received, ,wait_char
+42107,Stimulus,presented,12
+43123,Stimulus,presented,13
+44675,Experiment,paused
+44690,Stimulus,presented,18
+45931,Keyboard,received,y,wait_char
+45931,Experiment,ended
+45932,Data,saved
+45940,Stimulus,presented,18

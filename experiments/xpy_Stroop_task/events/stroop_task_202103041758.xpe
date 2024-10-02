@@ -1,0 +1,13 @@
+#Expyriment 0.10.0 (Python 3.7.9), .xpe-file, coding: UTF-8
+#date: Thu Mar 04 2021 17:58:59
+#sha1: 0a04ca
+#modules: 
+#display: size=(3840, 2160), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='is154920', release='5.8.0-44-generic', version='#50~20.04.1-Ubuntu SMP Wed Feb 10 21:07:30 UTC 2021', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+4157,Stimulus,presented,14
+6304,Experiment,paused
+6312,Stimulus,presented,16
+7464,Keyboard,received,y,wait_char
+7464,Experiment,ended
+7473,Stimulus,presented,16

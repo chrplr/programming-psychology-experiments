@@ -58,10 +58,6 @@ concepts:
 
 concept: use angles
 
----
-## Ebbinghaus dynamic
-
-Run `python ebbinghaus.py` and try to write a script doing the same thing.
 
 
 

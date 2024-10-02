@@ -1,0 +1,23 @@
+#Expyriment 0.10.0 (Python 3.7.9), .xpd-file, coding: UTF-8
+#date: Thu Mar 04 2021 17:50:12
+#--EXPERIMENT INFO
+#e mainfile: stroop_task.py
+#e sha1: fa3f7c
+#e modules: 
+#e Experiment: Stroop Experiment
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 9
+subject_id,
+9,English,11332
+9,French,5053
+9,French,1872
+9,Basque,959
+9,Basque,461
+9,English,374
+9,English,314
+9,English,310
+9,Basque,305
+9,French,296
+9,French,315
+9,Basque,329

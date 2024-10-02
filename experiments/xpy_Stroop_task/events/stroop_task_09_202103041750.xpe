@@ -1,0 +1,67 @@
+#Expyriment 0.10.0 (Python 3.7.9), .xpe-file, coding: UTF-8
+#date: Thu Mar 04 2021 17:50:12
+#sha1: fa3f7c
+#modules: 
+#display: size=(3840, 2160), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='is154920', release='5.8.0-44-generic', version='#50~20.04.1-Ubuntu SMP Wed Feb 10 21:07:30 UTC 2021', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+4179,Stimulus,presented,14
+14564,Keyboard,received, ,wait_char
+14575,Stimulus,presented,15
+26947,Keyboard,received, ,wait_char
+32376,design,log,
+#design: #exp: Stroop Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+32376,design,logged,
+32376,Experiment,started
+32452,Stimulus,presented,12
+33459,Picture,loaded,Stroop_English_03.png
+33475,Stimulus,presented,7
+44808,Keyboard,received, ,wait_char
+44893,Stimulus,presented,12
+45902,Picture,loaded,Stroop_French_03.png
+45910,Stimulus,presented,2
+50965,Keyboard,received, ,wait_char
+51059,Stimulus,presented,12
+52067,Picture,loaded,Stroop_French_02.png
+52075,Stimulus,presented,0
+53948,Keyboard,received, ,wait_char
+54034,Stimulus,presented,12
+55041,Picture,loaded,Stroop_Basque_03.png
+55075,Stimulus,presented,8
+56036,Keyboard,received, ,wait_char
+56120,Stimulus,presented,12
+57127,Picture,loaded,Stroop_Basque_01.png
+57142,Stimulus,presented,11
+57604,Keyboard,received, ,wait_char
+57692,Stimulus,presented,12
+58699,Picture,loaded,Stroop_English_01.png
+58709,Stimulus,presented,6
+59084,Keyboard,received, ,wait_char
+59168,Stimulus,presented,12
+60176,Picture,loaded,Stroop_English_02.png
+60209,Stimulus,presented,4
+60524,Keyboard,received, ,wait_char
+60609,Stimulus,presented,12
+61616,Picture,loaded,Stroop_English_00.png
+61628,Stimulus,presented,5
+61939,Keyboard,received, ,wait_char
+62026,Stimulus,presented,12
+63033,Picture,loaded,Stroop_Basque_00.png
+63042,Stimulus,presented,9
+63348,Keyboard,received, ,wait_char
+63433,Stimulus,presented,12
+64441,Picture,loaded,Stroop_French_01.png
+64459,Stimulus,presented,3
+64756,Keyboard,received, ,wait_char
+64844,Stimulus,presented,12
+65853,Picture,loaded,Stroop_French_00.png
+65860,Stimulus,presented,1
+66176,Keyboard,received, ,wait_char
+66261,Stimulus,presented,12
+67269,Picture,loaded,Stroop_Basque_02.png
+67277,Stimulus,presented,10
+67607,Keyboard,received, ,wait_char
+67607,Experiment,ended
+67608,Data,saved
+67625,Stimulus,presented,18

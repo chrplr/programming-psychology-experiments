@@ -370,6 +370,22 @@ With pygame, programming an animation will follow the following temporal logic::
 
 We take advantage of the double buffering mode (set by the option ``DOUBLEBUF`` in the call to ``pygame.display.set_mode()``) to draw the next image in memory while the current one is displayed on the screen. It is only when we call ``pygame.display.flip()`` that the image in memory is displayed, replacing the current one on the screen.
 
+Walker
+------
+
+
+Program an animation of a walker like the one displayed on https://lazyfoo.net/tutorials/SDL/14_animated_sprites_and_vsync/index.php
+
+
+You will need to extract the sprites from the following picture: 
+
+.. figure:: images/foo.png
+
+	    
+then display them in a loop. 
+
+  For a solution, checkout :download:`animation/walker.py <../stimuli/animation/walker.py>`
+
 
 Illusory line-motion
 --------------------

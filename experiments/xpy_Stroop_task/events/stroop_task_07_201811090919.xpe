@@ -1,0 +1,24 @@
+#Expyriment 0.9.0 (Python 3.6.6), .xpe-file, coding: UTF-8
+#date: Fri Nov 09 2018 09:19:25
+#sha1: None
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='is153352', release='4.9.8-040908-generic', version='#201702040431 SMP Sat Feb 4 09:32:59 UTC 2017', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+4177,Stimulus,presented,14
+4910,Keyboard,received,b' ',wait_char
+4910,Stimulus,presented,15
+5773,Keyboard,received,b' ',wait_char
+11707,design,log,
+#design: #exp: Stroop Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+11707,design,logged,
+11707,Experiment,started
+11735,Stimulus,presented,12
+12748,Picture,loaded,b'Stroop_Basque_00.png'
+12752,Stimulus,presented,10
+18064,Experiment,paused
+18068,Stimulus,presented,17
+19371,Keyboard,received,b'y',wait_char
+19371,Experiment,ended
+19373,Stimulus,presented,17
