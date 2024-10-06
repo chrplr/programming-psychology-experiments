@@ -16,6 +16,7 @@ screen = pygame.display.set_mode((W, H), pygame.DOUBLEBUF)
 screen.fill(BLACK)
 
 def ilm(direction):
+    """ TODO: add docstring """
     assert direction in ['left', 'right']
 
     width, height = 120, 40  # size of the rectangle

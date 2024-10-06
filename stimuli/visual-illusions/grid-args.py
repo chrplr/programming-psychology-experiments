@@ -10,7 +10,7 @@ BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
 GRAY = (127, 127, 127)
 
-if len(sys.argv) == 4:
+if len(sys.argv) != 4:
     print("Usage: " + sys.argv[0] + " nsquares  sizeofsquare  margin")
     print("'nsquares' is the number of squares per columns and row")
     print("'sizeofsquare' is the length of the side of the squares in pixels")
