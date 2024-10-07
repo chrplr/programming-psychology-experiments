@@ -12,6 +12,7 @@ Welcome to ppe's documentation!
 
    intro.md
    software-installation.md
-   stimulus-creation.md
-   
+   static-visual-stimuli.rst
+   dynamic-stimuli.rst
+   audio-stimuli.rst
    

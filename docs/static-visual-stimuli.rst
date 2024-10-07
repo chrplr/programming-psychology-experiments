@@ -1,12 +1,9 @@
-****************
-Creating stimuli
-****************
+******************************
+Creating static visual stimuli
+******************************
 
 .. contents::
 
-
-Static visual stimuli
-=====================
 
 To generate visual stimuli, we are going to rely on the Pygame_ module. You can check if it is installed on your system by typing ``python`` on a command line and, at the ``>>>`` prompt, ``import pygame``. If all is well, you should get the following message::
 
@@ -346,156 +343,8 @@ pygame <https://nerdparadise.com/programming/pygame/part5>`__
 Then, check  a solution at :download:`create_stroop_cards.py <../experiments/xpy_Stroop_task/create_stroop_cards.py>`
 
 
-Dynamic visual stimuli
-======================
-
-Animated movies are just a succession of still pictures. If the rate of presentation is fast enough, the brain creates an illusion of continuity. 
-
-With pygame, programming an animation will follow the following temporal logic::
-
-
-    #draw picture1 in the backbuffer
-    #flip the backbuffer to screen
-
-    #draw picture2 in the backbuffer
-    #wait for some time
-    #flip the backbuffer to screen
-
-    #draw picture3 in the backbuffer
-    #wait for some time
-    #flip the backbuffer to screen
-
-    ...
-
-
-We take advantage of the double buffering mode (set by the option ``DOUBLEBUF`` in the call to ``pygame.display.set_mode()``) to draw the next image in memory while the current one is displayed on the screen. It is only when we call ``pygame.display.flip()`` that the image in memory is displayed, replacing the current one on the screen.
-
-Walker
-------
-
-
-Program an animation of a walker like the one displayed on https://lazyfoo.net/tutorials/SDL/14_animated_sprites_and_vsync/index.php
-
-
-You will need to extract the sprites from the following picture: 
-
-.. figure:: images/foo.png
-
-	    
-then display them in a loop. 
-
-  For a solution, checkout :download:`animation/walker.py <../stimuli/animation/walker.py>`
-
-
-Illusory line-motion
---------------------
-
-Illusory line motion (ILM) refers to a situation in which flashing a light at one end of a bar prior to the bar's instantaneous presentation results in the percept of motion. 
-
-.. figure:: images/ilm.jpg
-   
-   Illusory line-motion
-
-Exercise (*):  Program the stimulus, that is, first draw a square, wait for a few milliseconds using the function `pygame.time.wait()`, then draw a rectangle overlapping with the initial square.   
-
-  Check out :download:`visual-illusions/line-motion.py <../stimuli/visual-illusions/line-motion.py>`
-
-
-Flash-lag illusion
-------------------
-
-* Download  :download:`visual-illusions/flash-lag.py <../stimuli/visual-illusions/flash-lag.py>` and run it. Do not look at the code yet. 
-
-* Do you feel that the moving square's x position coincides with the flashing square or not? If you want to read about the `Flash-lag illusion <https://en.wikipedia.org/wiki/Flash_lag_illusion>`__.
-
-Exercise:
-
-1. Create a movie of a square moving horizontally, back and forth. The
-   principle is simple: you just need to create a loop where you
-   display a square at coordinates `x, y` ,wait a few milliseconds, then clear
-   the screen, and increment or decrement the `x` coordinate by a fixed amount.
-   This strategy is explained in details at http://programarcadegames.com/index.php?lang=en&chapter=introduction_to_animation
-
-   Check out out version :download:`visual-illusions/moving_square.py <../stimuli/visual-illusions/moving_square.py>`
-
-2. Add the presentation of a flashing square then the moving square passes the middle line, to generate the flash-lag illusion.
-
-Now, you can look at the code in :download:`visual-illusions/flash-lag.py <../stimuli/visual-illusions/flash-lag.py>`
-
-
-Dynamic version of the Ebbinghaus-Titchener
--------------------------------------------
-
--  Watch `this video <https://www.youtube.com/watch?v=hRlWqfd5pn8>`__.
-
--  Program a version where the outer circles (inducers) grow and shrink in size.
-
--  Check out :download:`visual-illusions/ebbinghaus-dynamic.py <../stimuli/visual-illusions/ebbinghaus-dynamic.py>`
-
-
-Lilac Chaser
-------------
-
-The `Lilac Chaser`_ is a dynamic version of the Troxler fill-in illusion.  
-
-.. _Lilac Chaser: https://en.wikipedia.org/wiki/Lilac_chaser
-
-Exercise (\*\*): Program the Lilac Chaser stimulus, with 12 rose disks (you can use full disks without any blurring). Try different colors.
-
-For a possible solution, check out :download:`visual-illusions/lilac_chaser.py <../stimuli/visual-illusions/lilac_chaser.py>`
-
-(Optional exercise for advanced students: add blurring to the disks to make a stimulus similar to that of the wikipedia page `Lilac Chaser`_. Then, for a solution, check out :download:`visual-illusions/lilac_chaser_blurred.py <../stimuli/visual-illusions/lilac_chaser_blurred.py>`)
-
-
-Creating and playing sounds
-===========================
-
-Install the `simpleaudio` module::
-
-        pip install simpleaudio
-
-Then run the quick check with ipython::
-
-        import simpleaudio.functionchecks as fc 
-        fc.LeftRightCheck.run() 
-
-Check out `simpleaudio's tutorials <https://simpleaudio.readthedocs.io/en/latest/tutorial.html>`__
-
-The module :download:`sound_synth.py <../stimuli/sound/sound_synth.py>` provides several functions to load, create, and play sounds. 
-
-Exercise (\*\*) Using functions from the `sound_synth` module, write a script that loads the file ``cymbal.wav`` and plays it 10 times, at a rhythm of one per second. (Warning: a basic knowledge of numpy arrays is necessary to concatenate the samples).
-
-Check a solution at :download:`cycle.py <../stimuli/sound/cycle.py>`
-
-
-Shepard tone
-------------
-
-Watch `this video <https://www.youtube.com/watch?v=LVWTQcZbLgY
->`__ about *Shepard tones*.
-
-Exercise (\*\*\*): Program a Shepard tone.
-
-
-Sound localisation from binaural dephasing
-------------------------------------------
-
-Exercise (\*\*) Take the channel of a mono sound and create a stereo sound. Then dephase the two channels by various delays, and listen to the results.
-
-Hints: load the sound file into a one dimensional numpy array, make a copy of the array and shift it, assemble the two arrays in a bidimensional array (matrix) and save it as a stereo file
-
-If you know nothing about Numpy_, you may find useful tutorials on the web, e.g. at https://github.com/paris-saclay-cds/data-science-workshop-2019/blob/b370d46044719281932337ca4154e1b0b443ad97/Day_1_Scientific_Python/numpys/numpy_intro.ipynb
-
-
-Pulsation (Povel & Essen, 1985)
--------------------------------
-
-Exercise (\*\*\*) Create rhythmic stimuli such as the ones described in `Povel and Essen (1985) Perception of Temporal Patterns <http://www.cogsci.ucsd.edu/~creel/COGS160/COGS160_files/PovelEssens85.pdf>`__
-
-
-
 More illusions
-==============
+--------------
 
 You can train your Python skills by programming some of the illusions at https://www.illusionsindex.org/
 
