@@ -12,17 +12,17 @@ Reaction times are measured and saved in a file for further analyses.
 import random
 import pygame
 
-N_TRIALS = 20  # total number of trials
-MIN_WAIT_TIME = 1000
-MAX_WAIT_TIME = 2000
+N_TRIALS = 30  # total number of trials
+MIN_WAIT_TIME = 1500
+MAX_WAIT_TIME = 2500
 MAX_RESPONSE_DELAY = 2000
 RESULT_FILE = 'reaction_times.csv'
 
 
 def create_window():
-    screen = pygame.display.set_mode((1280, 960))
-    #screen = pygame.display.set_mode((0, 0),
-    #                                  pygame.DOUBLEBUF | pygame.FULLSCREEN)
+    #screen = pygame.display.set_mode((1280, 960))
+    screen = pygame.display.set_mode((0, 0),
+                                      pygame.DOUBLEBUF | pygame.FULLSCREEN)
     pygame.mouse.set_visible(False)
     return screen
 
@@ -55,7 +55,7 @@ def wait_for_keypress():
                 key_pressed = True
 
 
-def measure_reaction_time(max_response_delay=2000):
+def measure_reaction_time(max_response_delay=MAX_RESPONSE_DELAY):
     button_pressed = False
     escape = False
     response_delay_elapsed = False
@@ -102,7 +102,7 @@ center_y = H // 2
 waiting_times = []
 reaction_times = []
 
-display_instruction(screen, 20, center_y)
+display_instruction(screen, center_x, center_y)
 wait_for_keypress()
 clear_screen(screen)
 
@@ -122,7 +122,7 @@ for i_trial in range(N_TRIALS):
 
     waiting_times.append(waiting_time)
     reaction_times.append(reaction_time)
-    print(i_trial, waiting_time, reaction_time)
+    #print(i_trial, waiting_time, reaction_time)
 
 save_data(waiting_times, reaction_times)
 pygame.quit()

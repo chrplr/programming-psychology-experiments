@@ -90,8 +90,8 @@ There are three blocks of trials: a first one in which the target is always visu
 Exercice: add python code to ``simple-detection-audiovisual.py`` to display instructions at the start of the experiment. 
 
 
-Decision times
---------------
+Parity decision
+---------------
 
 In the previous example, the user just had to react to a stimulus. This involved a very simple type of decision ("is a target present or not?")
 

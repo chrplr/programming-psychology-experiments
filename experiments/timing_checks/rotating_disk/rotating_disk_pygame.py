@@ -5,7 +5,7 @@ import math
 
 pygame.init()
 
-screen = pygame.display.set_mode((1920,1080))
+screen = pygame.display.set_mode((1920,1080), pygame.DOUBLEBUF)
 clock = pygame.time.Clock()
 
 prev_t = pygame.time.get_ticks()
