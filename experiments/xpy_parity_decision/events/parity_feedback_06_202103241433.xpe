@@ -1,0 +1,68 @@
+#Expyriment 0.10.0 (Python 3.7.9), .xpe-file, coding: UTF-8
+#date: Wed Mar 24 2021 14:33:13
+#sha1: e8c9b8
+#modules: 
+#display: size=(3840, 2160), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='is154920', release='5.8.0-45-generic', version='#51~20.04.1-Ubuntu SMP Tue Feb 23 13:46:31 UTC 2021', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+10751,design,log,
+#design: #exp: Parity Decision
+#design: #dvn: number,is_even,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10751,design,logged,
+10751,Experiment,started
+10867,Stimulus,presented,53
+14886,Keyboard,received,32,wait
+14967,Stimulus,presented,1
+15984,Stimulus,presented,0
+16500,Stimulus,presented,2
+17130,Keyboard,received,102,wait
+17217,Stimulus,presented,1
+18234,Stimulus,presented,0
+18750,Stimulus,presented,3
+20751,Keyboard,received,None,wait
+20753,Stimulus,played,b'wrong-answer.ogg'
+20850,Stimulus,presented,1
+21867,Stimulus,presented,0
+22384,Stimulus,presented,4
+23810,Keyboard,received,102,wait
+23901,Stimulus,presented,1
+24918,Stimulus,presented,0
+25434,Stimulus,presented,5
+26038,Keyboard,received,102,wait
+26126,Stimulus,presented,1
+27134,Stimulus,presented,0
+27651,Stimulus,presented,6
+28150,Keyboard,received,106,wait
+28236,Stimulus,presented,1
+29251,Stimulus,presented,0
+29768,Stimulus,presented,7
+30158,Keyboard,received,102,wait
+30158,Stimulus,played,b'wrong-answer.ogg'
+30251,Stimulus,presented,1
+31268,Stimulus,presented,0
+31785,Stimulus,presented,8
+32277,Keyboard,received,102,wait
+32278,Stimulus,played,b'wrong-answer.ogg'
+32370,Stimulus,presented,1
+33385,Stimulus,presented,0
+33901,Stimulus,presented,9
+34465,Keyboard,received,106,wait
+34465,Stimulus,played,b'wrong-answer.ogg'
+34559,Stimulus,presented,1
+35568,Stimulus,presented,0
+36085,Stimulus,presented,10
+36766,Keyboard,received,102,wait
+36859,Stimulus,presented,1
+37868,Stimulus,presented,0
+38385,Stimulus,presented,11
+38850,Keyboard,received,106,wait
+38937,Stimulus,presented,1
+39952,Stimulus,presented,0
+40469,Stimulus,presented,12
+41661,Experiment,paused
+41669,Stimulus,presented,56
+42714,Keyboard,received,y,wait_char
+42714,Experiment,ended
+42714,Data,saved
+42719,Stimulus,presented,56

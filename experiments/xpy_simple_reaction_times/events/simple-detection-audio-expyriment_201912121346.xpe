@@ -1,0 +1,13 @@
+#Expyriment 0.10.0 (Python 3.7.5), .xpe-file, coding: UTF-8
+#date: Thu Dec 12 2019 13:46:24
+#sha1: cbfa33
+#modules: 
+#display: size=(3840, 2160), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='is154920', release='5.3.0-24-generic', version='#26-Ubuntu SMP Thu Nov 14 01:33:18 UTC 2019', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+3895,stderr,received,'Traceback (most recent call last):'
+3895,stderr,received,'  File "simple-detection-audio-expyriment.py", line 18, in <module>'
+3895,stderr,received,"    target = Audio('click.wav')"
+3895,stderr,received,'  File "/home/cp983411/anaconda3/lib/python3.7/site-packages/expyriment/stimuli/_audio.py", line 58, in __init__'
+3895,stderr,received,'    self._filename))'
+3895,stderr,received,'OSError: The audio file click.wav does not exists'

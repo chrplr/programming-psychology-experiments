@@ -1,0 +1,35 @@
+#Expyriment 0.10.0 (Python 3.7.9), .xpe-file, coding: UTF-8
+#date: Tue Nov 16 2021 15:36:50
+#sha1: 362aaf
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Linux', node='is154920', release='5.11.0-40-lowlatency', version='#44~20.04.2-Ubuntu SMP PREEMPT Tue Oct 26 19:27:49 UTC 2021', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+92,design,log,
+#design: #exp: Visual Detection
+#design: #dvn: trial,wait,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+92,design,logged,
+92,Experiment,started
+102,Stimulus,presented,1
+1603,Stimulus,presented,0
+2581,Keyboard,received,13,wait
+2586,Stimulus,presented,1
+4281,Stimulus,presented,0
+4765,Keyboard,received,13,wait
+4768,Stimulus,presented,1
+5886,Stimulus,presented,0
+6017,Keyboard,received,113,wait
+6022,Stimulus,presented,1
+7364,Stimulus,presented,0
+9365,Keyboard,received,None,wait
+9369,Stimulus,presented,1
+10896,Stimulus,presented,0
+12897,Keyboard,received,None,wait
+12901,Stimulus,presented,1
+14153,Stimulus,presented,0
+15573,Experiment,paused
+15575,Stimulus,presented,4
+16625,Keyboard,received,y,wait_char
+16625,Experiment,ended
+16625,Data,saved

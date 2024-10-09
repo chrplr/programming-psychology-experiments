@@ -1,0 +1,21 @@
+#Expyriment 0.9.0 (Python 3.7.4), .xpe-file, coding: UTF-8
+#date: Tue Nov 19 2019 11:56:58
+#sha1: None
+#modules: 
+#display: size=(3840, 2160), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='is154920', release='5.3.0-23-generic', version='#25-Ubuntu SMP Tue Nov 12 09:22:33 UTC 2019', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+11397,design,log,
+#design: #exp: sentence picture matching task
+#design: block_cnt,block_id,trial_cnt,trial_id
+11397,design,logged,
+11397,Experiment,started
+11400,Picture,loaded,b'no2.jpg'
+11401,Stimulus,presented,0
+11402,Picture,loaded,b'yes2.jpg'
+11403,Stimulus,presented,1
+26376,Experiment,paused
+26378,Stimulus,presented,4
+27287,Keyboard,received,b'y',wait_char
+27287,Experiment,ended
+27288,Stimulus,presented,4

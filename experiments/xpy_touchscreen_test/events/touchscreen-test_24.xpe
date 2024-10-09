@@ -1,0 +1,26 @@
+#Expyriment 0.10.0 (Python 3.7.4), .xpe-file, coding: UTF-8
+#date: Tue Nov 19 2019 12:58:35
+#sha1: 161884
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Linux', node='is154920', release='5.3.0-23-generic', version='#25-Ubuntu SMP Tue Nov 12 09:22:33 UTC 2019', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+192,Stimulus,created,3,BlankScreen,copied from 2
+192,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x7f272987c150>'
+195,Picture,loaded,no2.jpg
+196,Picture,loaded,yes2.jpg
+4460,design,log,
+#design: #exp: sentence picture matching task
+#design: block_cnt,block_id,trial_cnt,trial_id
+4460,design,logged,
+4460,Experiment,started
+4461,Stimulus,presented,3
+5478,Picture,loaded,no2.jpg
+5479,Picture,loaded,no2.jpg
+5480,Picture,loaded,yes2.jpg
+5480,Picture,loaded,yes2.jpg
+5480,TouchScreenButtonBox,received, button press,check
+5480,stderr,received,'Traceback (most recent call last):'
+5480,stderr,received,'  File "touchscreen-test.py", line 27, in <module>'
+5480,stderr,received,'    response = 1 if img == img1 else 2 '
+5480,stderr,received,"NameError: name 'img' is not defined"

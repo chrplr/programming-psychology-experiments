@@ -1,0 +1,42 @@
+#Expyriment 0.9.0 (Python 3.6.6), .xpe-file, coding: UTF-8
+#date: Sat Nov 17 2018 09:49:37
+#sha1: None
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Linux', node='is153352', release='4.9.8-040908-generic', version='#201702040431 SMP Sat Feb 4 09:32:59 UTC 2017', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+976,Picture,loaded,b'star.png'
+977,Picture,loaded,b'star.png'
+983,Picture,loaded,b'star.png'
+985,Picture,loaded,b'star.png'
+985,Picture,loaded,b'left_arrow.png'
+988,Picture,loaded,b'left_arrow.png'
+989,Picture,loaded,b'right_arrow.png'
+990,Picture,loaded,b'right_arrow.png'
+1012,design,log,
+#design: #exp: Posner-task
+#design: #dvn: congruency,side,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+1012,design,logged,
+1012,Experiment,started
+1047,Stimulus,presented,6
+1992,Keyboard,received,13,wait
+2001,Stimulus,presented,1
+4002,Stimulus,presented,0
+4503,Stimulus,presented,5
+6511,Stimulus,presented,3
+8515,Keyboard,received,None,wait
+8524,Stimulus,presented,1
+9528,Stimulus,presented,0
+10030,Stimulus,presented,4
+12036,Stimulus,presented,3
+14038,Keyboard,received,None,wait
+14047,Stimulus,presented,1
+15064,Stimulus,presented,0
+15564,Stimulus,presented,4
+17572,Stimulus,presented,2
+19527,Experiment,paused
+19529,Stimulus,presented,7
+20503,Keyboard,received,b'y',wait_char
+20503,Experiment,ended
+20504,Data,saved

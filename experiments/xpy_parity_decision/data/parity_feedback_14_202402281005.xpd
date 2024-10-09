@@ -1,0 +1,14 @@
+#Expyriment 0.10.0 (Python 3.7.6), .xpd-file, coding: UTF-8
+#date: Wed Feb 28 2024 10:05:41
+#--EXPERIMENT INFO
+#e mainfile: parity_feedback.py
+#e sha1: 0065fe
+#e modules: 
+#e Experiment: Parity Decision
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 14
+subject_id,number,is_even,respkey,RT,is_correct
+14,9,False,None,None,False
+14,5,False,None,None,False
+14,2,True,None,None,False

@@ -1,0 +1,19 @@
+#Expyriment 0.10.0 (Python 3.7.9), .xpe-file, coding: UTF-8
+#date: Tue Nov 16 2021 11:22:58
+#sha1: c506e2
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='is154920', release='5.11.0-40-lowlatency', version='#44~20.04.2-Ubuntu SMP PREEMPT Tue Oct 26 19:27:49 UTC 2021', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+10302,design,log,
+#design: #exp: Visual Detection
+#design: #dvn: trial,wait,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10302,design,logged,
+10302,Experiment,started
+10335,Stimulus,presented,5
+13689,Keyboard,received,32,wait
+13689,stderr,received,'Traceback (most recent call last):'
+13689,stderr,received,'  File "grey-levels.py", line 52, in <module>'
+13689,stderr,received,'    for t in block:'
+13689,stderr,received,"TypeError: 'Block' object is not iterable"

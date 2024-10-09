@@ -1,0 +1,29 @@
+#Expyriment 0.10.0-40-g4f47628 (Python 3.8.8), .xpe-file, coding: UTF-8
+#date: Wed Sep 14 2022 09:30:00
+#sha1: 0065fe
+#modules: 
+#display: size=(3840, 2160), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='is154920', release='5.15.0-46-lowlatency', version='#49~20.04.1-Ubuntu SMP PREEMPT Mon Aug 8 11:51:19 UTC 2022', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+10818,design,log,
+#design: #exp: Parity Decision
+#design: #dvn: number,is_even,respkey,RT,is_correct
+#design: block_cnt,block_id,trial_cnt,trial_id
+10818,design,logged,
+10818,Experiment,started
+10918,Stimulus,presented,43
+13169,Keyboard,received,102,wait
+13255,Stimulus,presented,41
+14260,Stimulus,presented,40
+14761,Stimulus,presented,16
+15641,Keyboard,received,j,wait_char
+15643,Stimulus,played,b'buzzer.wav'
+15752,Stimulus,presented,41
+16757,Stimulus,presented,40
+17258,Stimulus,presented,11
+17672,Experiment,paused
+17678,Stimulus,presented,46
+18529,Keyboard,received,y,wait_char
+18529,Experiment,ended
+18530,Data,saved
+18535,Stimulus,presented,46

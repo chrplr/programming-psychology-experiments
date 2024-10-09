@@ -1,0 +1,16 @@
+#Expyriment 0.10.0 (Python 3.7.9), .xpd-file, coding: UTF-8
+#date: Tue Nov 16 2021 15:36:50
+#--EXPERIMENT INFO
+#e mainfile: simple-detection-visual-expyriment.py
+#e sha1: 362aaf
+#e modules: 
+#e Experiment: Visual Detection
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 6
+subject_id,trial,wait,respkey,RT
+6,0,1500,13,977
+6,1,1694,13,483
+6,2,1117,113,131
+6,3,1341,None,None
+6,4,1527,None,None

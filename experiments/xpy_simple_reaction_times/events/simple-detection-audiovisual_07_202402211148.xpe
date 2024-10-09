@@ -1,0 +1,93 @@
+#Expyriment 0.10.0 (Python 3.7.6), .xpe-file, coding: UTF-8
+#date: Wed Feb 21 2024 11:48:02
+#sha1: 0fd03d
+#modules: 
+#display: size=(3840, 2160), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='is154920', release='6.5.0-18-generic', version='#18~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Feb  7 11:40:03 UTC 2', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+10130,design,log,
+#design: #exp: AudioVisual Detection
+#design: #dvn: block,key,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+#design: 0,0,0,0
+#design: 0,0,1,1
+#design: 0,0,2,2
+#design: 0,0,3,3
+#design: 0,0,4,4
+#design: 0,0,5,5
+#design: 0,0,6,6
+#design: 0,0,7,7
+#design: 0,0,8,8
+#design: 0,0,9,9
+#design: 0,0,10,10
+#design: 0,0,11,11
+#design: 0,0,12,12
+#design: 0,0,13,13
+#design: 0,0,14,14
+#design: 0,0,15,15
+#design: 0,0,16,16
+#design: 0,0,17,17
+#design: 0,0,18,18
+#design: 0,0,19,19
+#design: 1,1,0,0
+#design: 1,1,1,1
+#design: 1,1,2,2
+#design: 1,1,3,3
+#design: 1,1,4,4
+#design: 1,1,5,5
+#design: 1,1,6,6
+#design: 1,1,7,7
+#design: 1,1,8,8
+#design: 1,1,9,9
+#design: 1,1,10,10
+#design: 1,1,11,11
+#design: 1,1,12,12
+#design: 1,1,13,13
+#design: 1,1,14,14
+#design: 1,1,15,15
+#design: 1,1,16,16
+#design: 1,1,17,17
+#design: 1,1,18,18
+#design: 1,1,19,19
+#design: 2,2,0,16
+#design: 2,2,1,18
+#design: 2,2,2,1
+#design: 2,2,3,4
+#design: 2,2,4,8
+#design: 2,2,5,12
+#design: 2,2,6,5
+#design: 2,2,7,10
+#design: 2,2,8,13
+#design: 2,2,9,15
+#design: 2,2,10,2
+#design: 2,2,11,9
+#design: 2,2,12,6
+#design: 2,2,13,11
+#design: 2,2,14,17
+#design: 2,2,15,14
+#design: 2,2,16,3
+#design: 2,2,17,7
+#design: 2,2,18,0
+#design: 2,2,19,19
+10130,design,logged,
+10130,Experiment,started
+10233,Stimulus,presented,0
+12521,Stimulus,presented,1
+13627,Keyboard,received,13,wait
+13770,Stimulus,presented,0
+16234,Stimulus,presented,1
+17336,Keyboard,received,13,wait
+17440,Stimulus,presented,0
+19879,Stimulus,presented,1
+20311,Keyboard,received,32,wait
+20415,Stimulus,presented,0
+22749,Stimulus,presented,1
+23047,Keyboard,received,32,wait
+23151,Stimulus,presented,0
+26057,Stimulus,presented,1
+26982,Experiment,paused
+26984,Stimulus,presented,5
+27929,Keyboard,received,y,wait_char
+27929,Experiment,ended
+27929,Data,saved
+27933,Stimulus,presented,5

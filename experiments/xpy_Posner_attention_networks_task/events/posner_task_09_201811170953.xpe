@@ -1,0 +1,63 @@
+#Expyriment 0.9.0 (Python 3.6.6), .xpe-file, coding: UTF-8
+#date: Sat Nov 17 2018 09:53:42
+#sha1: None
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='is153352', release='4.9.8-040908-generic', version='#201702040431 SMP Sat Feb 4 09:32:59 UTC 2017', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+4073,Picture,loaded,b'star.png'
+4078,Picture,loaded,b'star.png'
+4079,Picture,loaded,b'star.png'
+4079,Picture,loaded,b'star.png'
+4080,Picture,loaded,b'left_arrow.png'
+4081,Picture,loaded,b'left_arrow.png'
+4081,Picture,loaded,b'right_arrow.png'
+4081,Picture,loaded,b'right_arrow.png'
+10936,design,log,
+#design: #exp: Posner-task
+#design: #dvn: congruency,side,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10936,design,logged,
+10936,Experiment,started
+10976,Stimulus,presented,7
+12220,Keyboard,received,13,wait
+12241,Stimulus,presented,1
+14246,Stimulus,presented,0
+15247,Stimulus,presented,4
+17249,Stimulus,presented,2
+17500,Keyboard,received,102,wait
+17524,Stimulus,presented,1
+18527,Stimulus,presented,0
+19528,Stimulus,presented,5
+21530,Stimulus,presented,3
+21833,Keyboard,received,102,wait
+21856,Stimulus,presented,1
+22859,Stimulus,presented,0
+23860,Stimulus,presented,4
+25862,Stimulus,presented,2
+26117,Keyboard,received,102,wait
+26140,Stimulus,presented,1
+27143,Stimulus,presented,0
+28144,Stimulus,presented,5
+30146,Stimulus,presented,3
+30360,Keyboard,received,102,wait
+30384,Stimulus,presented,1
+31387,Stimulus,presented,0
+32388,Stimulus,presented,5
+34390,Stimulus,presented,2
+34653,Keyboard,received,102,wait
+34676,Stimulus,presented,1
+35679,Stimulus,presented,0
+36680,Stimulus,presented,4
+38682,Stimulus,presented,3
+38991,Keyboard,received,121,wait
+39014,Stimulus,presented,1
+40017,Stimulus,presented,0
+41018,Stimulus,presented,5
+43020,Stimulus,presented,3
+43468,Experiment,paused
+43470,Stimulus,presented,8
+44303,Keyboard,received,b'y',wait_char
+44303,Experiment,ended
+44303,Data,saved
+44305,Stimulus,presented,8

@@ -1,0 +1,11 @@
+#Expyriment 0.10.0 (Python 3.7.9), .xpe-file, coding: UTF-8
+#date: Wed Dec 01 2021 09:49:23
+#sha1: f110eb
+#modules: 
+#display: size=(3840, 2160), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='is154920', release='5.11.0-41-lowlatency', version='#45~20.04.1-Ubuntu SMP PREEMPT Wed Nov 10 11:31:18 UTC 2021', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+3928,stderr,received,'Traceback (most recent call last):'
+3928,stderr,received,'  File "parity_feedback.py", line 26, in <module>'
+3928,stderr,received,'    for number in targets:'
+3928,stderr,received,"NameError: name 'targets' is not defined"

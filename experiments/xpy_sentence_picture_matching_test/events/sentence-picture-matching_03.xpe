@@ -1,0 +1,42 @@
+#Expyriment 0.10.0 (Python 3.7.9), .xpe-file, coding: UTF-8
+#date: Sun Feb 14 2021 14:22:21
+#sha1: 6901bd
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Linux', node='is154920', release='5.8.0-43-generic', version='#49~20.04.1-Ubuntu SMP Fri Feb 5 09:57:56 UTC 2021', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+2483,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture,key,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+2483,design,logged,
+2483,Experiment,started
+2500,Stimulus,presented,0
+2506,Stimulus,played,b'sounds/1.wav'
+5507,Picture,loaded,pictures/example.jpg
+5516,Stimulus,presented,3
+8918,Keyboard,received,32,wait
+8933,Stimulus,presented,0
+9935,Stimulus,played,b'sounds/2.wav'
+12935,Picture,loaded,pictures/example.jpg
+12949,Stimulus,presented,5
+13663,Keyboard,received,32,wait
+13666,Stimulus,presented,0
+14669,Stimulus,played,b'sounds/3.wav'
+17669,Picture,loaded,pictures/example.jpg
+17683,Stimulus,presented,7
+19503,Keyboard,received,32,wait
+19516,Stimulus,presented,0
+20517,Stimulus,played,b'sounds/4.wav'
+23518,Picture,loaded,pictures/example.jpg
+23533,Stimulus,presented,9
+24786,Keyboard,received,32,wait
+24799,Stimulus,presented,0
+25800,Stimulus,played,b'sounds/5.wav'
+28800,Picture,loaded,pictures/example.jpg
+28816,Stimulus,presented,11
+29274,Experiment,paused
+29283,Stimulus,presented,12
+30619,Keyboard,received,y,wait_char
+30619,Experiment,ended
+30619,Data,saved

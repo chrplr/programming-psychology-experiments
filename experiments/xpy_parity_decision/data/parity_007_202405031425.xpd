@@ -1,0 +1,11 @@
+#Expyriment 0.11.dev1 (Python 3.12.0), .xpd-file, coding: UTF-8
+#date: Fri May 03 2024 14:25:53
+#--EXPERIMENT INFO
+#e mainfile: parity.py
+#e sha1: 03e411
+#e modules: 
+#e Experiment: Parity Decision
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 7
+subject_id,number,oddity,respkey,RT

@@ -1,0 +1,36 @@
+#Expyriment 0.10.0 (Python 3.7.9), .xpe-file, coding: UTF-8
+#date: Wed Dec 01 2021 10:00:18
+#sha1: 03e411
+#modules: 
+#display: size=(3840, 2160), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='is154920', release='5.11.0-41-lowlatency', version='#45~20.04.1-Ubuntu SMP PREEMPT Wed Nov 10 11:31:18 UTC 2021', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+10685,design,log,
+#design: #exp: Parity Decision
+#design: #dvn: number,oddity,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10685,design,logged,
+10685,Experiment,started
+10800,Stimulus,presented,102
+15788,Keyboard,received,13,wait
+15866,Stimulus,presented,101
+16872,Stimulus,presented,100
+17378,Stimulus,presented,45
+18800,Keyboard,received,f,wait_char
+18889,Stimulus,presented,101
+19895,Stimulus,presented,100
+20401,Stimulus,presented,85
+22402,Keyboard,received,None,wait_char
+22492,Stimulus,presented,101
+23498,Stimulus,presented,100
+24004,Stimulus,presented,71
+26005,Keyboard,received,None,wait_char
+26094,Stimulus,presented,101
+27100,Stimulus,presented,100
+27606,Stimulus,presented,96
+28536,Experiment,paused
+28544,Stimulus,presented,105
+29479,Keyboard,received,y,wait_char
+29479,Experiment,ended
+29479,Data,saved
+29486,Stimulus,presented,105

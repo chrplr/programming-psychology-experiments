@@ -1,0 +1,12 @@
+#Expyriment 0.10.0 (Python 3.7.6), .xpd-file, coding: UTF-8
+#date: Tue Apr 16 2024 09:52:49
+#--EXPERIMENT INFO
+#e mainfile: touchscreen-test.py
+#e sha1: 0d442a
+#e modules: 
+#e Experiment: sentence picture matching task
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 27
+subject_id,resonse,rt
+27,Yes,3393

@@ -1,0 +1,29 @@
+#Expyriment 0.10.0 (Python 3.7.6), .xpe-file, coding: UTF-8
+#date: Tue Apr 16 2024 09:52:49
+#sha1: 0d442a
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Linux', node='is154920', release='6.5.0-27-lowlatency', version='#28.1~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Mar 22 17:40:23 UTC', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+112,Stimulus,created,3,BlankScreen,copied from 2
+112,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x7d3392112150>'
+115,Picture,loaded,no2.jpg
+116,Picture,loaded,yes2.jpg
+3399,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: resonse,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+3399,design,logged,
+3399,Experiment,started
+3409,Stimulus,presented,3
+6801,Picture,loaded,no2.jpg
+6802,Picture,loaded,no2.jpg
+6802,Picture,loaded,yes2.jpg
+6803,Picture,loaded,yes2.jpg
+6803,TouchScreenButtonBox,received, button press,check
+8822,Stimulus,presented,3
+11994,Experiment,paused
+12006,Stimulus,presented,5
+13635,Keyboard,received,y,wait_char
+13635,Experiment,ended
+13636,Data,saved

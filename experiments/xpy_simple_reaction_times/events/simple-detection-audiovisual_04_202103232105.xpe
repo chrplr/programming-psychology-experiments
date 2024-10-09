@@ -1,0 +1,108 @@
+#Expyriment 0.10.0 (Python 3.7.9), .xpe-file, coding: UTF-8
+#date: Tue Mar 23 2021 21:05:10
+#sha1: a39e89
+#modules: 
+#display: size=(3840, 2160), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='is154920', release='5.8.0-45-generic', version='#51~20.04.1-Ubuntu SMP Tue Feb 23 13:46:31 UTC 2021', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+10894,design,log,
+#design: #exp: AudioVisual Detection
+#design: #dvn: key,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+#design: 0,0,0,0
+#design: 0,0,1,1
+#design: 0,0,2,2
+#design: 0,0,3,3
+#design: 0,0,4,4
+#design: 0,0,5,5
+#design: 0,0,6,6
+#design: 0,0,7,7
+#design: 0,0,8,8
+#design: 0,0,9,9
+#design: 0,0,10,10
+#design: 0,0,11,11
+#design: 0,0,12,12
+#design: 0,0,13,13
+#design: 0,0,14,14
+#design: 0,0,15,15
+#design: 0,0,16,16
+#design: 0,0,17,17
+#design: 0,0,18,18
+#design: 0,0,19,19
+#design: 0,0,20,20
+#design: 0,0,21,21
+#design: 0,0,22,22
+#design: 0,0,23,23
+#design: 0,0,24,24
+#design: 0,0,25,25
+#design: 0,0,26,26
+#design: 0,0,27,27
+#design: 0,0,28,28
+#design: 0,0,29,29
+#design: 1,1,0,0
+#design: 1,1,1,1
+#design: 1,1,2,2
+#design: 1,1,3,3
+#design: 1,1,4,4
+#design: 1,1,5,5
+#design: 1,1,6,6
+#design: 1,1,7,7
+#design: 1,1,8,8
+#design: 1,1,9,9
+#design: 1,1,10,10
+#design: 1,1,11,11
+#design: 1,1,12,12
+#design: 1,1,13,13
+#design: 1,1,14,14
+#design: 1,1,15,15
+#design: 1,1,16,16
+#design: 1,1,17,17
+#design: 1,1,18,18
+#design: 1,1,19,19
+#design: 1,1,20,20
+#design: 1,1,21,21
+#design: 1,1,22,22
+#design: 1,1,23,23
+#design: 1,1,24,24
+#design: 1,1,25,25
+#design: 1,1,26,26
+#design: 1,1,27,27
+#design: 1,1,28,28
+#design: 1,1,29,29
+#design: 2,2,0,1
+#design: 2,2,1,28
+#design: 2,2,2,14
+#design: 2,2,3,19
+#design: 2,2,4,4
+#design: 2,2,5,29
+#design: 2,2,6,11
+#design: 2,2,7,15
+#design: 2,2,8,2
+#design: 2,2,9,10
+#design: 2,2,10,17
+#design: 2,2,11,12
+#design: 2,2,12,27
+#design: 2,2,13,8
+#design: 2,2,14,7
+#design: 2,2,15,9
+#design: 2,2,16,13
+#design: 2,2,17,21
+#design: 2,2,18,0
+#design: 2,2,19,24
+#design: 2,2,20,18
+#design: 2,2,21,22
+#design: 2,2,22,23
+#design: 2,2,23,25
+#design: 2,2,24,5
+#design: 2,2,25,3
+#design: 2,2,26,20
+#design: 2,2,27,26
+#design: 2,2,28,16
+#design: 2,2,29,6
+10894,design,logged,
+10894,Experiment,started
+10980,Stimulus,presented,0
+11981,stderr,received,'Traceback (most recent call last):'
+11981,stderr,received,'  File "simple-detection-audiovisual.py", line 51, in <module>'
+11981,stderr,received,'    exp.clock.wait(random.randint(1000, 2000))'
+11981,stderr,received,"NameError: name 'random' is not defined"

@@ -1,0 +1,27 @@
+#Expyriment 0.10.0-40-g4f47628 (Python 3.8.8), .xpe-file, coding: UTF-8
+#date: Wed Sep 14 2022 09:29:18
+#sha1: 55df53
+#modules: 
+#display: size=(3840, 2160), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='is154920', release='5.15.0-46-lowlatency', version='#49~20.04.1-Ubuntu SMP PREEMPT Mon Aug 8 11:51:19 UTC 2022', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+2530,Picture,loaded,star.png
+2530,Picture,loaded,star.png
+2531,Picture,loaded,star.png
+2531,Picture,loaded,star.png
+2531,Picture,loaded,left_arrow.png
+2532,Picture,loaded,left_arrow.png
+2532,Picture,loaded,right_arrow.png
+2533,Picture,loaded,right_arrow.png
+10321,design,log,
+#design: #exp: Posner-task
+#design: #dvn: congruency,side,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10321,design,logged,
+10321,Experiment,started
+10418,Stimulus,presented,8
+12424,Experiment,paused
+12430,Stimulus,presented,9
+13616,Keyboard,received,y,wait_char
+13616,Experiment,ended
+13622,Stimulus,presented,9

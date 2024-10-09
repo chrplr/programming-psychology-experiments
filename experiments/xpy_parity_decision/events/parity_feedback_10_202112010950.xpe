@@ -1,0 +1,79 @@
+#Expyriment 0.10.0 (Python 3.7.9), .xpe-file, coding: UTF-8
+#date: Wed Dec 01 2021 09:50:52
+#sha1: 11af4a
+#modules: 
+#display: size=(3840, 2160), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='is154920', release='5.11.0-41-lowlatency', version='#45~20.04.1-Ubuntu SMP PREEMPT Wed Nov 10 11:31:18 UTC 2021', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+10847,design,log,
+#design: #exp: Parity Decision
+#design: #dvn: number,is_even,respkey,RT,is_correct
+#design: block_cnt,block_id,trial_cnt,trial_id
+10847,design,logged,
+10847,Experiment,started
+10965,Stimulus,presented,53
+22725,Keyboard,received,32,wait
+22801,Stimulus,presented,51
+23807,Stimulus,presented,50
+24314,Stimulus,presented,31
+25736,Keyboard,received,j,wait_char
+25824,Stimulus,presented,51
+26830,Stimulus,presented,50
+27336,Stimulus,presented,39
+28300,Keyboard,received,f,wait_char
+28302,Stimulus,played,b'buzzer.wav'
+28388,Stimulus,presented,51
+29394,Stimulus,presented,50
+29900,Stimulus,presented,35
+30781,Keyboard,received,j,wait_char
+30863,Stimulus,presented,51
+31869,Stimulus,presented,50
+32375,Stimulus,presented,32
+33146,Keyboard,received,f,wait_char
+33234,Stimulus,presented,51
+34240,Stimulus,presented,50
+34746,Stimulus,presented,11
+35546,Keyboard,received,j,wait_char
+35629,Stimulus,presented,51
+36635,Stimulus,presented,50
+37141,Stimulus,presented,8
+37882,Keyboard,received,f,wait_char
+37973,Stimulus,presented,51
+38979,Stimulus,presented,50
+39485,Stimulus,presented,28
+40165,Keyboard,received,f,wait_char
+40248,Stimulus,presented,51
+41254,Stimulus,presented,50
+41760,Stimulus,presented,18
+42252,Keyboard,received,f,wait_char
+42334,Stimulus,presented,51
+43340,Stimulus,presented,50
+43846,Stimulus,presented,27
+44491,Keyboard,received,j,wait_char
+44573,Stimulus,presented,51
+45579,Stimulus,presented,50
+46085,Stimulus,presented,42
+46749,Keyboard,received,f,wait_char
+46838,Stimulus,presented,51
+47844,Stimulus,presented,50
+48350,Stimulus,presented,15
+49003,Keyboard,received,j,wait_char
+49089,Stimulus,presented,51
+50129,Stimulus,presented,50
+50635,Stimulus,presented,7
+51298,Keyboard,received,f,wait_char
+51298,Stimulus,played,b'buzzer.wav'
+51379,Stimulus,presented,51
+52385,Stimulus,presented,50
+52891,Stimulus,presented,38
+53360,Keyboard,received,j,wait_char
+53360,Stimulus,played,b'buzzer.wav'
+53442,Stimulus,presented,51
+54448,Stimulus,presented,50
+54954,Stimulus,presented,9
+55657,Experiment,paused
+55665,Stimulus,presented,56
+56741,Keyboard,received,y,wait_char
+56741,Experiment,ended
+56742,Data,saved
+56749,Stimulus,presented,56

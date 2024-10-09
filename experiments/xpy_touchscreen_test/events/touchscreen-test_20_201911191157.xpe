@@ -1,0 +1,37 @@
+#Expyriment 0.10.0 (Python 3.7.4), .xpe-file, coding: UTF-8
+#date: Tue Nov 19 2019 11:57:57
+#sha1: 008f46
+#modules: 
+#display: size=(3840, 2160), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='is154920', release='5.3.0-23-generic', version='#25-Ubuntu SMP Tue Nov 12 09:22:33 UTC 2019', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+11280,design,log,
+#design: #exp: sentence picture matching task
+#design: block_cnt,block_id,trial_cnt,trial_id
+11280,design,logged,
+11280,Experiment,started
+11282,Picture,loaded,no2.jpg
+11282,Stimulus,presented,0
+11283,Picture,loaded,yes2.jpg
+11287,Stimulus,presented,1
+12257,Picture,loaded,no2.jpg
+12257,Picture,loaded,no2.jpg
+12258,Picture,loaded,yes2.jpg
+12259,Picture,loaded,yes2.jpg
+12923,Picture,loaded,no2.jpg
+12923,Picture,loaded,no2.jpg
+12924,Picture,loaded,yes2.jpg
+12925,Picture,loaded,yes2.jpg
+13142,Picture,loaded,no2.jpg
+13142,Picture,loaded,no2.jpg
+13143,Picture,loaded,yes2.jpg
+13143,Picture,loaded,yes2.jpg
+13504,Picture,loaded,no2.jpg
+13504,Picture,loaded,no2.jpg
+13505,Picture,loaded,yes2.jpg
+13505,Picture,loaded,yes2.jpg
+14381,Experiment,paused
+14386,Stimulus,presented,5
+15408,Keyboard,received,y,wait_char
+15408,Experiment,ended
+15415,Stimulus,presented,5

@@ -1,0 +1,19 @@
+#Expyriment 0.10.0 (Python 3.7.9), .xpe-file, coding: UTF-8
+#date: Wed Mar 24 2021 12:08:58
+#sha1: 32acfa
+#modules: 
+#display: size=(3840, 2160), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='is154920', release='5.8.0-45-generic', version='#51~20.04.1-Ubuntu SMP Tue Feb 23 13:46:31 UTC 2021', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+10909,design,log,
+#design: #exp: Parity Decision
+#design: #dvn: number,is_even,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10909,design,logged,
+10909,Experiment,started
+11047,Stimulus,presented,53
+13326,Keyboard,received,32,wait
+13326,stderr,received,'Traceback (most recent call last):'
+13326,stderr,received,'  File "parity_feedback.py", line 58, in <module>'
+13326,stderr,received,'    for t in block:'
+13326,stderr,received,"TypeError: 'Block' object is not iterable"

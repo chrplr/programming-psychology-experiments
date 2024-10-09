@@ -1,0 +1,39 @@
+#Expyriment 0.10.0 (Python 3.7.6), .xpe-file, coding: UTF-8
+#date: Wed Feb 28 2024 10:05:41
+#sha1: 0065fe
+#modules: 
+#display: size=(1920, 1200), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='is154920', release='6.5.0-21-generic', version='#21~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Feb  9 13:32:52 UTC 2', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+10741,design,log,
+#design: #exp: Parity Decision
+#design: #dvn: number,is_even,respkey,RT,is_correct
+#design: block_cnt,block_id,trial_cnt,trial_id
+10741,design,logged,
+10741,Experiment,started
+10791,Stimulus,presented,43
+15507,Keyboard,received,32,wait
+15545,Stimulus,presented,41
+16562,Stimulus,presented,40
+17079,Stimulus,presented,39
+19080,Keyboard,received,None,wait_char
+19081,Stimulus,played,b'buzzer.wav'
+19115,Stimulus,presented,41
+20165,Stimulus,presented,40
+20682,Stimulus,presented,35
+22683,Keyboard,received,None,wait_char
+22683,Stimulus,played,b'buzzer.wav'
+22718,Stimulus,presented,41
+23735,Stimulus,presented,40
+24252,Stimulus,presented,12
+26253,Keyboard,received,None,wait_char
+26253,Stimulus,played,b'buzzer.wav'
+26288,Stimulus,presented,41
+27305,Stimulus,presented,40
+27822,Stimulus,presented,8
+29133,Experiment,paused
+29139,Stimulus,presented,46
+29972,Keyboard,received,y,wait_char
+29972,Experiment,ended
+29972,Data,saved
+29990,Stimulus,presented,46

@@ -1,0 +1,11 @@
+#Expyriment 0.10.0 (Python 3.7.9), .xpd-file, coding: UTF-8
+#date: Wed Mar 24 2021 10:58:02
+#--EXPERIMENT INFO
+#e mainfile: simple-detection-audio-expyriment.py
+#e sha1: 5dd879
+#e modules: 
+#e Experiment: Visual Detection
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 2
+subject_id,trial,wait,respkey,RT

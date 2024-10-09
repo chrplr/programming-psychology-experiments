@@ -1,0 +1,44 @@
+#Expyriment 0.10.0 (Python 3.7.9), .xpe-file, coding: UTF-8
+#date: Wed Mar 24 2021 12:12:07
+#sha1: f37a5d
+#modules: 
+#display: size=(3840, 2160), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='is154920', release='5.8.0-45-generic', version='#51~20.04.1-Ubuntu SMP Tue Feb 23 13:46:31 UTC 2021', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+10927,design,log,
+#design: #exp: Parity Decision
+#design: #dvn: number,is_even,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10927,design,logged,
+10927,Experiment,started
+11063,Stimulus,presented,53
+12808,Keyboard,received,32,wait
+12900,Stimulus,presented,1
+13910,Stimulus,presented,0
+14426,Stimulus,presented,2
+16428,Keyboard,received,None,wait
+16430,Stimulus,played,b'wrong-answer.ogg'
+16538,Stimulus,presented,1
+17543,Stimulus,presented,0
+18060,Stimulus,presented,3
+20061,Keyboard,received,None,wait
+20061,Stimulus,played,b'wrong-answer.ogg'
+20168,Stimulus,presented,1
+21182,Stimulus,presented,0
+21693,Stimulus,presented,4
+23694,Keyboard,received,None,wait
+23694,Stimulus,played,b'wrong-answer.ogg'
+23795,Stimulus,presented,1
+24810,Stimulus,presented,0
+25327,Stimulus,presented,5
+27328,Keyboard,received,None,wait
+27328,Stimulus,played,b'wrong-answer.ogg'
+27429,Stimulus,presented,1
+28444,Stimulus,presented,0
+28961,Stimulus,presented,6
+29491,Experiment,paused
+29496,Stimulus,presented,56
+30516,Keyboard,received,y,wait_char
+30516,Experiment,ended
+30516,Data,saved
+30527,Stimulus,presented,56

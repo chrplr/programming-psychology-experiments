@@ -1,0 +1,99 @@
+#Expyriment 0.10.0-40-g4f47628 (Python 3.8.8), .xpe-file, coding: UTF-8
+#date: Mon May 16 2022 11:54:20
+#sha1: 362aaf
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Linux', node='is154920', release='5.13.0-41-lowlatency', version='#46~20.04.1-Ubuntu SMP PREEMPT Wed Apr 20 14:13:08 UTC 2022', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+146,design,log,
+#design: #exp: Visual Detection
+#design: #dvn: trial,wait,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+146,design,logged,
+146,Experiment,started
+150,Stimulus,presented,1
+1655,Stimulus,presented,0
+2706,Keyboard,received,32,wait
+2727,Stimulus,presented,1
+4554,Stimulus,presented,0
+4826,Keyboard,received,32,wait
+4838,Stimulus,presented,1
+6557,Stimulus,presented,0
+6848,Keyboard,received,32,wait
+6855,Stimulus,presented,1
+8843,Stimulus,presented,0
+9114,Keyboard,received,32,wait
+9126,Stimulus,presented,1
+11061,Stimulus,presented,0
+11317,Keyboard,received,32,wait
+11331,Stimulus,presented,1
+13142,Stimulus,presented,0
+13424,Keyboard,received,32,wait
+13434,Stimulus,presented,1
+15416,Stimulus,presented,0
+15676,Keyboard,received,32,wait
+15689,Stimulus,presented,1
+17239,Stimulus,presented,0
+17494,Keyboard,received,32,wait
+17502,Stimulus,presented,1
+19315,Stimulus,presented,0
+19566,Keyboard,received,32,wait
+19570,Stimulus,presented,1
+20629,Stimulus,presented,0
+21003,Keyboard,received,32,wait
+21014,Stimulus,presented,1
+22285,Stimulus,presented,0
+22554,Keyboard,received,32,wait
+22566,Stimulus,presented,1
+23716,Stimulus,presented,0
+24054,Keyboard,received,32,wait
+24065,Stimulus,presented,1
+25604,Stimulus,presented,0
+25878,Keyboard,received,32,wait
+25881,Stimulus,presented,1
+27095,Stimulus,presented,0
+27380,Keyboard,received,32,wait
+27392,Stimulus,presented,1
+29270,Stimulus,presented,0
+29548,Keyboard,received,32,wait
+29560,Stimulus,presented,1
+30857,Stimulus,presented,0
+31185,Keyboard,received,32,wait
+31198,Stimulus,presented,1
+32381,Stimulus,presented,0
+32670,Keyboard,received,32,wait
+32684,Stimulus,presented,1
+34188,Stimulus,presented,0
+34478,Keyboard,received,32,wait
+34484,Stimulus,presented,1
+36014,Stimulus,presented,0
+36632,Keyboard,received,32,wait
+36640,Stimulus,presented,1
+38409,Stimulus,presented,0
+38512,Keyboard,received,32,wait
+38523,Stimulus,presented,1
+40186,Stimulus,presented,0
+40229,Keyboard,received,32,wait
+40232,Stimulus,presented,1
+41764,Stimulus,presented,0
+42026,Keyboard,received,32,wait
+42038,Stimulus,presented,1
+43416,Stimulus,presented,0
+43725,Keyboard,received,32,wait
+43737,Stimulus,presented,1
+45604,Stimulus,presented,0
+46803,Experiment,paused
+46809,Stimulus,presented,4
+64701,stderr,received,'Traceback (most recent call last):'
+64701,stderr,received,'  File "simple-detection-visual-expyriment.py", line 43, in <module>'
+64701,stderr,received,'    key, rt = exp.keyboard.wait(duration=MAX_RESPONSE_DELAY)'
+64701,stderr,received,'  File "/home/cp983411/anaconda3/lib/python3.8/site-packages/expyriment/io/_keyboard.py", line 295, in wait'
+64703,stderr,received,'    Keyboard.process_control_keys(event):'
+64703,stderr,received,'  File "/home/cp983411/anaconda3/lib/python3.8/site-packages/expyriment/io/_keyboard.py", line 70, in process_control_keys'
+64703,stderr,received,'    confirm = end_function('
+64703,stderr,received,'  File "/home/cp983411/anaconda3/lib/python3.8/site-packages/expyriment/control/_experiment_control.py", line 311, in end'
+64704,stderr,received,'    char = Keyboard().wait_char(["y", "n"], process_control_events=False)'
+64704,stderr,received,'  File "/home/cp983411/anaconda3/lib/python3.8/site-packages/expyriment/io/_keyboard.py", line 391, in wait_char'
+64704,stderr,received,'    time.sleep(0.0005)'
+64704,stderr,received,'KeyboardInterrupt'
+64705,Data,saved

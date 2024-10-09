@@ -1,0 +1,17 @@
+#Expyriment 0.9.0 (Python 3.6.6), .xpd-file, coding: UTF-8
+#date: Sat Nov 17 2018 09:53:42
+#--EXPERIMENT INFO
+#e mainfile: posner_task.py
+#e sha1: None
+#e modules: 
+#e Experiment: Posner-task
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 9
+subject_id,congruency,side,respkey,RT
+9,congruent,left,102,249
+9,congruent,right,102,301
+9,congruent,left,102,253
+9,congruent,right,102,212
+9,incongruent,left,102,261
+9,incongruent,right,121,307

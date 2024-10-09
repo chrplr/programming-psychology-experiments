@@ -1,0 +1,43 @@
+#Expyriment 0.10.0 (Python 3.7.9), .xpd-file, coding: UTF-8
+#date: Tue Feb 23 2021 18:04:22
+#--EXPERIMENT INFO
+#e mainfile: simple-detection-audiovisual.py
+#e sha1: 9200e7
+#e modules: 
+#e Experiment: Visual Detection
+#e no between subject factors
+#e Block 0: unnamed
+#e     block factors: 
+#e     n trials: 10
+#e     trial factors: 
+#e Block 1: unnamed
+#e     block factors: 
+#e     n trials: 10
+#e     trial factors: 
+#e Block 2: unnamed
+#e     block factors: 
+#e     n trials: 10
+#e     trial factors: 
+#--SUBJECT INFO
+#s id: 2
+subject_id,key,rt
+2,13,1031
+2,13,1761
+2,13,486
+2,13,367
+2,13,444
+2,13,350
+2,13,348
+2,13,250
+2,13,556
+2,13,657
+2,13,849
+2,13,470
+2,13,492
+2,13,368
+2,13,412
+2,13,387
+2,13,364
+2,13,411
+2,13,410
+2,13,356

@@ -1,0 +1,32 @@
+#Expyriment 0.10.0 (Python 3.8.10), .xpe-file, coding: UTF-8
+#date: Sun Mar 27 2022 22:12:10
+#sha1: 55df53
+#modules: 
+#display: size=(3840, 2160), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='is154920', release='5.13.0-37-lowlatency', version='#42~20.04.1-Ubuntu SMP PREEMPT Tue Mar 15 16:42:57 UTC 2022', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+3908,Picture,loaded,star.png
+3909,Picture,loaded,star.png
+3909,Picture,loaded,star.png
+3910,Picture,loaded,star.png
+3910,Picture,loaded,left_arrow.png
+3910,Picture,loaded,left_arrow.png
+3911,Picture,loaded,right_arrow.png
+3911,Picture,loaded,right_arrow.png
+10327,design,log,
+#design: #exp: Posner-task
+#design: #dvn: congruency,side,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10327,design,logged,
+10327,Experiment,started
+10505,Stimulus,presented,8
+11569,Keyboard,received,13,wait
+11690,Stimulus,presented,1
+13693,Stimulus,presented,0
+14694,Stimulus,presented,4
+16695,Stimulus,presented,2
+17804,Experiment,paused
+17811,Stimulus,presented,9
+19108,Keyboard,received,y,wait_char
+19108,Experiment,ended
+19116,Stimulus,presented,9

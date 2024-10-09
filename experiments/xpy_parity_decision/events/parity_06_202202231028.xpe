@@ -1,0 +1,23 @@
+#Expyriment 0.10.0 (Python 3.7.9), .xpe-file, coding: UTF-8
+#date: Wed Feb 23 2022 10:28:24
+#sha1: 03e411
+#modules: 
+#display: size=(1920, 1200), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='is154920', release='5.13.0-30-lowlatency', version='#33~20.04.1-Ubuntu SMP PREEMPT Mon Feb 7 15:23:11 UTC 2022', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+10634,design,log,
+#design: #exp: Parity Decision
+#design: #dvn: number,oddity,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10634,design,logged,
+10634,Experiment,started
+10683,Stimulus,presented,102
+14736,Keyboard,received,32,wait
+14767,Stimulus,presented,101
+15784,Stimulus,presented,100
+16300,Stimulus,presented,90
+17146,Experiment,paused
+17150,Stimulus,presented,105
+17950,Keyboard,received,y,wait_char
+17950,Experiment,ended
+17967,Stimulus,presented,105

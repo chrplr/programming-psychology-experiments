@@ -1,0 +1,17 @@
+#Expyriment 0.9.0 (Python 3.6.6), .xpe-file, coding: UTF-8
+#date: Sat Nov 17 2018 09:03:14
+#sha1: None
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='is153352', release='4.9.8-040908-generic', version='#201702040431 SMP Sat Feb 4 09:32:59 UTC 2017', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+10981,design,log,
+#design: #exp: Visual Detection
+#design: #dvn: congruency,side,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10981,design,logged,
+10981,Experiment,started
+10982,stderr,received,'Traceback (most recent call last):'
+10982,stderr,received,'  File "posner_task.py", line 62, in <module>'
+10982,stderr,received,'    "Press a key as quickly as possible when you see the cross. There will be %d trials " % NTRIALS).present()'
+10982,stderr,received,"NameError: name 'NTRIALS' is not defined"

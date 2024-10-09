@@ -1,0 +1,40 @@
+#Expyriment 0.10.0 (Python 3.7.4), .xpe-file, coding: UTF-8
+#date: Tue Nov 19 2019 12:59:08
+#sha1: 06d063
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Linux', node='is154920', release='5.3.0-23-generic', version='#25-Ubuntu SMP Tue Nov 12 09:22:33 UTC 2019', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+188,Stimulus,created,3,BlankScreen,copied from 2
+188,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x7fc343cdd610>'
+191,Picture,loaded,no2.jpg
+193,Picture,loaded,yes2.jpg
+4922,design,log,
+#design: #exp: sentence picture matching task
+#design: block_cnt,block_id,trial_cnt,trial_id
+4922,design,logged,
+4922,Experiment,started
+4923,Stimulus,presented,3
+6665,Picture,loaded,no2.jpg
+6666,Picture,loaded,no2.jpg
+6666,Picture,loaded,yes2.jpg
+6667,Picture,loaded,yes2.jpg
+6667,TouchScreenButtonBox,received, button press,check
+6667,stdout,received,'2 1743'
+8669,Stimulus,presented,3
+9407,Picture,loaded,no2.jpg
+9407,Picture,loaded,no2.jpg
+9407,TouchScreenButtonBox,received, button press,check
+9407,stdout,received,'1 738'
+11408,Stimulus,presented,3
+11958,Picture,loaded,no2.jpg
+11958,Picture,loaded,no2.jpg
+11959,Picture,loaded,yes2.jpg
+11960,Picture,loaded,yes2.jpg
+11960,TouchScreenButtonBox,received, button press,check
+11960,stdout,received,'2 551'
+13960,Stimulus,presented,3
+17690,Experiment,paused
+17692,Stimulus,presented,5
+18719,Keyboard,received,y,wait_char
+18719,Experiment,ended

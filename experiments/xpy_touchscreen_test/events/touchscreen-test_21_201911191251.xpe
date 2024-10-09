@@ -1,0 +1,58 @@
+#Expyriment 0.10.0 (Python 3.7.4), .xpe-file, coding: UTF-8
+#date: Tue Nov 19 2019 12:51:51
+#sha1: 7426b8
+#modules: 
+#display: size=(3840, 2160), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='is154920', release='5.3.0-23-generic', version='#25-Ubuntu SMP Tue Nov 12 09:22:33 UTC 2019', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+3969,Stimulus,created,3,BlankScreen,copied from 2
+3969,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x7fb50be89450>'
+4007,Picture,loaded,no2.jpg
+4008,Picture,loaded,yes2.jpg
+11428,design,log,
+#design: #exp: sentence picture matching task
+#design: block_cnt,block_id,trial_cnt,trial_id
+11428,design,logged,
+11428,Experiment,started
+11440,Stimulus,presented,3
+12373,Picture,loaded,no2.jpg
+12373,Picture,loaded,no2.jpg
+12374,Picture,loaded,yes2.jpg
+12374,Picture,loaded,yes2.jpg
+13124,Picture,loaded,no2.jpg
+13125,Picture,loaded,no2.jpg
+13125,Picture,loaded,yes2.jpg
+13126,Picture,loaded,yes2.jpg
+13638,Picture,loaded,no2.jpg
+13638,Picture,loaded,no2.jpg
+13639,Picture,loaded,yes2.jpg
+13640,Picture,loaded,yes2.jpg
+14990,Picture,loaded,no2.jpg
+14991,Picture,loaded,no2.jpg
+14991,Picture,loaded,yes2.jpg
+14992,Picture,loaded,yes2.jpg
+15208,Picture,loaded,no2.jpg
+15209,Picture,loaded,no2.jpg
+15210,Picture,loaded,yes2.jpg
+15210,Picture,loaded,yes2.jpg
+15370,Picture,loaded,no2.jpg
+15371,Picture,loaded,no2.jpg
+15372,Picture,loaded,yes2.jpg
+15372,Picture,loaded,yes2.jpg
+15789,Picture,loaded,no2.jpg
+15790,Picture,loaded,no2.jpg
+15790,Picture,loaded,yes2.jpg
+15791,Picture,loaded,yes2.jpg
+16189,Picture,loaded,no2.jpg
+16189,Picture,loaded,no2.jpg
+16190,Picture,loaded,yes2.jpg
+16191,Picture,loaded,yes2.jpg
+16618,Picture,loaded,no2.jpg
+16619,Picture,loaded,no2.jpg
+16620,Picture,loaded,yes2.jpg
+16620,Picture,loaded,yes2.jpg
+19071,Experiment,paused
+19077,Stimulus,presented,6
+20066,Keyboard,received,y,wait_char
+20066,Experiment,ended
+20072,Stimulus,presented,6

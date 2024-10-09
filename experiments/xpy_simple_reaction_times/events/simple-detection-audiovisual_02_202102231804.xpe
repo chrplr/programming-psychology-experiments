@@ -1,0 +1,110 @@
+#Expyriment 0.10.0 (Python 3.7.9), .xpe-file, coding: UTF-8
+#date: Tue Feb 23 2021 18:04:22
+#sha1: 9200e7
+#modules: 
+#display: size=(3840, 2160), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='is154920', release='5.8.0-43-generic', version='#49~20.04.1-Ubuntu SMP Fri Feb 5 09:57:56 UTC 2021', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+10576,design,log,
+#design: #exp: Visual Detection
+#design: #dvn: key,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+#design: 0,0,0,0
+#design: 0,0,1,1
+#design: 0,0,2,2
+#design: 0,0,3,3
+#design: 0,0,4,4
+#design: 0,0,5,5
+#design: 0,0,6,6
+#design: 0,0,7,7
+#design: 0,0,8,8
+#design: 0,0,9,9
+#design: 1,1,0,0
+#design: 1,1,1,1
+#design: 1,1,2,2
+#design: 1,1,3,3
+#design: 1,1,4,4
+#design: 1,1,5,5
+#design: 1,1,6,6
+#design: 1,1,7,7
+#design: 1,1,8,8
+#design: 1,1,9,9
+#design: 2,2,0,0
+#design: 2,2,1,1
+#design: 2,2,2,2
+#design: 2,2,3,3
+#design: 2,2,4,4
+#design: 2,2,5,5
+#design: 2,2,6,6
+#design: 2,2,7,7
+#design: 2,2,8,8
+#design: 2,2,9,9
+10577,design,logged,
+10577,Experiment,started
+10592,Stimulus,presented,0
+11625,Keyboard,received,13,wait
+11710,Stimulus,presented,2
+12726,Stimulus,presented,0
+14489,Keyboard,received,13,wait
+14576,Stimulus,presented,2
+15593,Stimulus,presented,0
+16080,Keyboard,received,13,wait
+16163,Stimulus,presented,2
+17176,Stimulus,presented,0
+17544,Keyboard,received,13,wait
+17628,Stimulus,presented,2
+18643,Stimulus,presented,0
+19088,Keyboard,received,13,wait
+19176,Stimulus,presented,2
+20193,Stimulus,presented,0
+20544,Keyboard,received,13,wait
+20628,Stimulus,presented,2
+21643,Stimulus,presented,0
+21992,Keyboard,received,13,wait
+22076,Stimulus,presented,2
+23093,Stimulus,presented,0
+23344,Keyboard,received,13,wait
+23429,Stimulus,presented,2
+24443,Stimulus,presented,0
+25000,Keyboard,received,13,wait
+25084,Stimulus,presented,2
+26093,Stimulus,presented,0
+26752,Keyboard,received,13,wait
+26837,Stimulus,presented,2
+27838,Stimulus,played,b'click.wav'
+28688,Keyboard,received,13,wait
+28778,Stimulus,presented,2
+29778,Stimulus,played,b'click.wav'
+30248,Keyboard,received,13,wait
+30331,Stimulus,presented,2
+31332,Stimulus,played,b'click.wav'
+31824,Keyboard,received,13,wait
+31911,Stimulus,presented,2
+32911,Stimulus,played,b'click.wav'
+33279,Keyboard,received,13,wait
+33363,Stimulus,presented,2
+34363,Stimulus,played,b'click.wav'
+34776,Keyboard,received,13,wait
+34860,Stimulus,presented,2
+35860,Stimulus,played,b'click.wav'
+36248,Keyboard,received,13,wait
+36331,Stimulus,presented,2
+37331,Stimulus,played,b'click.wav'
+37696,Keyboard,received,13,wait
+37779,Stimulus,presented,2
+38780,Stimulus,played,b'click.wav'
+39192,Keyboard,received,13,wait
+39277,Stimulus,presented,2
+40277,Stimulus,played,b'click.wav'
+40688,Keyboard,received,13,wait
+40771,Stimulus,presented,2
+41771,Stimulus,played,b'click.wav'
+42127,Keyboard,received,13,wait
+42211,Stimulus,presented,2
+43211,Stimulus,played,b'click.wav'
+43591,Experiment,paused
+43596,Stimulus,presented,5
+45568,Keyboard,received,y,wait_char
+45568,Experiment,ended
+45568,Data,saved
+45577,Stimulus,presented,5

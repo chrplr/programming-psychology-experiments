@@ -1,0 +1,11 @@
+#Expyriment 0.11.dev1 (Python 3.10.12), .xpd-file, coding: UTF-8
+#date: Fri May 03 2024 11:56:05
+#--EXPERIMENT INFO
+#e mainfile: posner_task.py
+#e sha1: 55df53
+#e modules: 
+#e Experiment: Posner-task
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 18
+subject_id,congruency,side,respkey,RT

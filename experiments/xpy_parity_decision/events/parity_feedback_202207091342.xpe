@@ -1,0 +1,7 @@
+#Expyriment 0.10.0+83.gf2b2ea1 (Python 3.10.4), .xpe-file, coding: UTF-8
+#date: Sat Jul 09 2022 13:42:27
+#sha1: 0065fe
+#modules: 
+#display: size=(3840, 2160), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='is154920', release='5.13.0-52-lowlatency', version='#59~20.04.1-Ubuntu SMP PREEMPT Thu Jun 16 22:18:57 UTC 2022', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2

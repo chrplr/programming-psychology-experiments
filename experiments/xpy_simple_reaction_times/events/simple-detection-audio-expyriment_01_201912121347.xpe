@@ -1,0 +1,49 @@
+#Expyriment 0.10.0 (Python 3.7.5), .xpe-file, coding: UTF-8
+#date: Thu Dec 12 2019 13:47:01
+#sha1: cbfa33
+#modules: 
+#display: size=(3840, 2160), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='is154920', release='5.3.0-24-generic', version='#26-Ubuntu SMP Thu Nov 14 01:33:18 UTC 2019', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+10304,design,log,
+#design: #exp: Visual Detection
+#design: #dvn: clock,trial,wait,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10304,design,logged,
+10304,Experiment,started
+10411,Stimulus,presented,4
+12476,Keyboard,received,13,wait
+12552,Stimulus,presented,1
+15167,Stimulus,played,b'click.wav'
+15955,Keyboard,received,13,wait
+16039,Stimulus,presented,1
+20941,Stimulus,played,b'click.wav'
+21251,Keyboard,received,104,wait
+21334,Stimulus,presented,1
+23375,Stimulus,played,b'click.wav'
+23771,Keyboard,received,104,wait
+23855,Stimulus,presented,1
+26016,Stimulus,played,b'click.wav'
+26340,Keyboard,received,104,wait
+26423,Stimulus,presented,1
+31057,Stimulus,played,b'click.wav'
+31347,Keyboard,received,104,wait
+31431,Stimulus,presented,1
+33623,Stimulus,played,b'click.wav'
+33947,Keyboard,received,104,wait
+34031,Stimulus,presented,1
+36584,Stimulus,played,b'click.wav'
+36875,Keyboard,received,104,wait
+36959,Stimulus,presented,1
+40095,Stimulus,played,b'click.wav'
+40379,Keyboard,received,104,wait
+40465,Stimulus,presented,1
+42918,Stimulus,played,b'click.wav'
+43251,Keyboard,received,104,wait
+43339,Stimulus,presented,1
+45780,Stimulus,played,b'click.wav'
+46107,Keyboard,received,104,wait
+46193,Stimulus,presented,1
+46193,Experiment,ended
+46194,Data,saved
+46196,Stimulus,presented,5

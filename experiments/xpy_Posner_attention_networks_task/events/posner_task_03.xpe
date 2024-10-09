@@ -1,0 +1,23 @@
+#Expyriment 0.9.0 (Python 3.6.6), .xpe-file, coding: UTF-8
+#date: Sat Nov 17 2018 09:05:45
+#sha1: None
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Linux', node='is153352', release='4.9.8-040908-generic', version='#201702040431 SMP Sat Feb 4 09:32:59 UTC 2017', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+336,design,log,
+#design: #exp: Visual Detection
+#design: #dvn: congruency,side,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+336,design,logged,
+336,Experiment,started
+351,Stimulus,presented,6
+1367,Keyboard,received,13,wait
+1373,Stimulus,presented,1
+3374,Stimulus,presented,0
+3875,Stimulus,presented,4
+4875,Stimulus,presented,2
+4876,stderr,received,'Traceback (most recent call last):'
+4876,stderr,received,'  File "posner_task.py", line 81, in <module>'
+4876,stderr,received,'    key, rt = exp.keyboard.wait(duration=MAXDURATION)'
+4877,stderr,received,"NameError: name 'MAXDURATION' is not defined"

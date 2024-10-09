@@ -1,0 +1,61 @@
+#Expyriment 0.10.0 (Python 3.7.9), .xpd-file, coding: UTF-8
+#date: Wed Mar 24 2021 14:36:12
+#--EXPERIMENT INFO
+#e mainfile: parity_feedback.py
+#e sha1: 6ee155
+#e modules: 
+#e Experiment: Parity Decision
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 7
+subject_id,number,is_even,respkey,RT
+7,6,True,102,1034
+7,4,True,102,471
+7,7,False,106,328
+7,5,False,102,641
+7,1,False,102,531
+7,2,True,106,513
+7,5,False,106,527
+7,3,False,102,637
+7,2,True,102,631
+7,4,True,102,485
+7,8,True,102,420
+7,0,True,106,430
+7,8,True,102,667
+7,7,False,106,535
+7,2,True,102,645
+7,8,True,106,711
+7,9,False,106,748
+7,1,False,102,759
+7,0,True,102,1187
+7,4,True,102,534
+7,2,True,102,416
+7,8,True,102,507
+7,9,False,106,518
+7,7,False,106,509
+7,6,True,106,495
+7,4,True,102,550
+7,8,True,102,451
+7,3,False,102,792
+7,0,True,102,503
+7,5,False,106,597
+7,3,False,102,697
+7,7,False,106,760
+7,6,True,102,672
+7,5,False,106,716
+7,0,True,102,499
+7,0,True,102,440
+7,3,False,106,922
+7,2,True,102,644
+7,9,False,106,640
+7,7,False,106,890
+7,9,False,106,693
+7,5,False,106,813
+7,1,False,102,710
+7,3,False,106,396
+7,1,False,106,464
+7,9,False,106,485
+7,6,True,102,496
+7,1,False,102,726
+7,4,True,106,556
+7,6,True,102,456

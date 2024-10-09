@@ -1,0 +1,32 @@
+#Expyriment 0.10.0 (Python 3.7.9), .xpd-file, coding: UTF-8
+#date: Tue Mar 23 2021 22:02:13
+#--EXPERIMENT INFO
+#e mainfile: posner_task.py
+#e sha1: 794f2e
+#e modules: 
+#e Experiment: Posner-task
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 12
+subject_id,congruency,side,respkey,RT
+12,incongruent,right,32,372
+12,congruent,left,32,227
+12,congruent,left,32,236
+12,congruent,left,32,254
+12,congruent,right,32,237
+12,incongruent,left,32,773
+12,congruent,left,32,248
+12,congruent,right,32,261
+12,congruent,right,32,247
+12,congruent,left,32,232
+12,congruent,left,32,424
+12,congruent,left,32,298
+12,congruent,right,32,356
+12,incongruent,right,32,552
+12,incongruent,right,32,564
+12,congruent,right,32,275
+12,congruent,left,32,247
+12,congruent,left,32,258
+12,congruent,right,32,238
+12,congruent,left,32,419
+12,congruent,left,32,252

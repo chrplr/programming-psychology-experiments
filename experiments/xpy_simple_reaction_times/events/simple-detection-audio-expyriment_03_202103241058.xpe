@@ -1,0 +1,29 @@
+#Expyriment 0.10.0 (Python 3.7.9), .xpe-file, coding: UTF-8
+#date: Wed Mar 24 2021 10:58:46
+#sha1: 8bec4a
+#modules: 
+#display: size=(3840, 2160), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='is154920', release='5.8.0-45-generic', version='#51~20.04.1-Ubuntu SMP Tue Feb 23 13:46:31 UTC 2021', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+10343,design,log,
+#design: #exp: Visual Detection
+#design: #dvn: trial,wait,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10343,design,logged,
+10343,Experiment,started
+10499,Stimulus,presented,2
+12202,Keyboard,received,13,wait
+12292,Stimulus,presented,1
+13686,Stimulus,played,b'click.wav'
+15686,Keyboard,received,None,wait
+15796,Stimulus,presented,1
+17183,Stimulus,played,b'click.wav'
+19183,Keyboard,received,None,wait
+19275,Stimulus,presented,1
+20294,Stimulus,played,b'click.wav'
+20416,Experiment,paused
+20425,Stimulus,presented,5
+21677,Keyboard,received,y,wait_char
+21677,Experiment,ended
+21678,Data,saved
+21692,Stimulus,presented,5

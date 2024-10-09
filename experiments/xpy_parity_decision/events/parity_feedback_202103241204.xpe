@@ -1,0 +1,11 @@
+#Expyriment 0.10.0 (Python 3.7.9), .xpe-file, coding: UTF-8
+#date: Wed Mar 24 2021 12:04:42
+#sha1: f68df5
+#modules: 
+#display: size=(3840, 2160), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='is154920', release='5.8.0-45-generic', version='#51~20.04.1-Ubuntu SMP Tue Feb 23 13:46:31 UTC 2021', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+4099,stderr,received,'Traceback (most recent call last):'
+4099,stderr,received,'  File "parity_feedback.py", line 42, in <module>'
+4099,stderr,received,'    t.add_stimuli(stimuli.TextLine(str(number)))'
+4099,stderr,received,"AttributeError: 'Trial' object has no attribute 'add_stimuli'"

@@ -1,0 +1,14 @@
+#Expyriment 0.9.0 (Python 3.6.6), .xpe-file, coding: UTF-8
+#date: Sat Nov 17 2018 09:02:09
+#sha1: None
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='is153352', release='4.9.8-040908-generic', version='#201702040431 SMP Sat Feb 4 09:32:59 UTC 2017', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+4089,Stimulus,created,4,Shape,copied from 3
+4090,stderr,received,'Traceback (most recent call last):'
+4090,stderr,received,'  File "posner_task.py", line 53, in <module>'
+4090,stderr,received,'    cue_right.rotate(-180)'
+4090,stderr,received,'  File "/home/cp983411/anaconda3/lib/python3.6/site-packages/expyriment/stimuli/_visual.py", line 1123, in rotate'
+4090,stderr,received,'    "rotate()"))'
+4090,stderr,received,'RuntimeError: Cannot call rotate() on compressed stimuli!'

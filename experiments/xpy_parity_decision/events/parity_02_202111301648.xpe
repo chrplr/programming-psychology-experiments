@@ -1,0 +1,56 @@
+#Expyriment 0.10.0 (Python 3.7.9), .xpe-file, coding: UTF-8
+#date: Tue Nov 30 2021 16:48:11
+#sha1: c430e7
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='is154920', release='5.11.0-40-lowlatency', version='#44~20.04.2-Ubuntu SMP PREEMPT Tue Oct 26 19:27:49 UTC 2021', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+10528,design,log,
+#design: #exp: Parity Decision
+#design: #dvn: number,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10528,design,logged,
+10528,Experiment,started
+10627,Stimulus,presented,2
+12533,Keyboard,received,32,wait
+12602,Stimulus,presented,1
+13609,Stimulus,presented,0
+14113,Stimulus,presented,3
+14505,Keyboard,received,f,wait_char
+14589,Stimulus,presented,1
+15599,Stimulus,presented,0
+16104,Stimulus,presented,4
+18105,Keyboard,received,None,wait_char
+18171,Stimulus,presented,1
+19179,Stimulus,presented,0
+19683,Stimulus,presented,5
+20163,Keyboard,received,f,wait_char
+20235,Stimulus,presented,1
+21241,Stimulus,presented,0
+21744,Stimulus,presented,6
+23333,Keyboard,received,j,wait_char
+23400,Stimulus,presented,1
+24410,Stimulus,presented,0
+24914,Stimulus,presented,7
+26915,Keyboard,received,None,wait_char
+27039,Stimulus,presented,1
+28051,Stimulus,presented,0
+28558,Stimulus,presented,8
+29890,Keyboard,received,f,wait_char
+30009,Stimulus,presented,1
+31021,Stimulus,presented,0
+31524,Stimulus,presented,9
+33147,Keyboard,received,f,wait_char
+33212,Stimulus,presented,1
+34220,Stimulus,presented,0
+34726,Stimulus,presented,10
+35823,Keyboard,received,j,wait_char
+35889,Stimulus,presented,1
+36898,Stimulus,presented,0
+37402,Stimulus,presented,11
+37913,Experiment,paused
+37921,Stimulus,presented,55
+38797,Keyboard,received,y,wait_char
+38797,Experiment,ended
+38797,Data,saved
+38803,Stimulus,presented,55

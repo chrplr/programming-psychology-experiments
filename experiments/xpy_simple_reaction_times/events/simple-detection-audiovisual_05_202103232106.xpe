@@ -1,0 +1,376 @@
+#Expyriment 0.10.0 (Python 3.7.9), .xpe-file, coding: UTF-8
+#date: Tue Mar 23 2021 21:06:25
+#sha1: e31231
+#modules: 
+#display: size=(3840, 2160), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='is154920', release='5.8.0-45-generic', version='#51~20.04.1-Ubuntu SMP Tue Feb 23 13:46:31 UTC 2021', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+10323,design,log,
+#design: #exp: AudioVisual Detection
+#design: #dvn: key,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+#design: 0,0,0,0
+#design: 0,0,1,1
+#design: 0,0,2,2
+#design: 0,0,3,3
+#design: 0,0,4,4
+#design: 0,0,5,5
+#design: 0,0,6,6
+#design: 0,0,7,7
+#design: 0,0,8,8
+#design: 0,0,9,9
+#design: 0,0,10,10
+#design: 0,0,11,11
+#design: 0,0,12,12
+#design: 0,0,13,13
+#design: 0,0,14,14
+#design: 0,0,15,15
+#design: 0,0,16,16
+#design: 0,0,17,17
+#design: 0,0,18,18
+#design: 0,0,19,19
+#design: 0,0,20,20
+#design: 0,0,21,21
+#design: 0,0,22,22
+#design: 0,0,23,23
+#design: 0,0,24,24
+#design: 0,0,25,25
+#design: 0,0,26,26
+#design: 0,0,27,27
+#design: 0,0,28,28
+#design: 0,0,29,29
+#design: 1,1,0,0
+#design: 1,1,1,1
+#design: 1,1,2,2
+#design: 1,1,3,3
+#design: 1,1,4,4
+#design: 1,1,5,5
+#design: 1,1,6,6
+#design: 1,1,7,7
+#design: 1,1,8,8
+#design: 1,1,9,9
+#design: 1,1,10,10
+#design: 1,1,11,11
+#design: 1,1,12,12
+#design: 1,1,13,13
+#design: 1,1,14,14
+#design: 1,1,15,15
+#design: 1,1,16,16
+#design: 1,1,17,17
+#design: 1,1,18,18
+#design: 1,1,19,19
+#design: 1,1,20,20
+#design: 1,1,21,21
+#design: 1,1,22,22
+#design: 1,1,23,23
+#design: 1,1,24,24
+#design: 1,1,25,25
+#design: 1,1,26,26
+#design: 1,1,27,27
+#design: 1,1,28,28
+#design: 1,1,29,29
+#design: 2,2,0,16
+#design: 2,2,1,19
+#design: 2,2,2,23
+#design: 2,2,3,26
+#design: 2,2,4,21
+#design: 2,2,5,6
+#design: 2,2,6,29
+#design: 2,2,7,25
+#design: 2,2,8,3
+#design: 2,2,9,8
+#design: 2,2,10,10
+#design: 2,2,11,14
+#design: 2,2,12,20
+#design: 2,2,13,9
+#design: 2,2,14,22
+#design: 2,2,15,27
+#design: 2,2,16,24
+#design: 2,2,17,1
+#design: 2,2,18,18
+#design: 2,2,19,7
+#design: 2,2,20,2
+#design: 2,2,21,0
+#design: 2,2,22,28
+#design: 2,2,23,15
+#design: 2,2,24,17
+#design: 2,2,25,5
+#design: 2,2,26,11
+#design: 2,2,27,4
+#design: 2,2,28,13
+#design: 2,2,29,12
+10324,design,logged,
+10324,Experiment,started
+10410,Stimulus,presented,0
+13206,Stimulus,presented,1
+13678,Keyboard,received,32,wait
+13773,Stimulus,presented,0
+16323,Stimulus,presented,1
+16573,Keyboard,received,32,wait
+16662,Stimulus,presented,0
+19308,Stimulus,presented,1
+19526,Keyboard,received,32,wait
+19614,Stimulus,presented,0
+22374,Stimulus,presented,1
+22638,Keyboard,received,32,wait
+22727,Stimulus,presented,0
+25208,Stimulus,presented,1
+25477,Keyboard,received,32,wait
+25567,Stimulus,presented,0
+28274,Stimulus,presented,1
+28554,Keyboard,received,32,wait
+28643,Stimulus,presented,0
+31459,Stimulus,presented,1
+31730,Keyboard,received,32,wait
+31824,Stimulus,presented,0
+34674,Stimulus,presented,1
+34922,Keyboard,received,32,wait
+35024,Stimulus,presented,0
+37927,Stimulus,presented,1
+38190,Keyboard,received,32,wait
+38282,Stimulus,presented,0
+40325,Stimulus,presented,1
+40717,Keyboard,received,32,wait
+40809,Stimulus,presented,0
+43642,Stimulus,presented,1
+43882,Keyboard,received,32,wait
+43975,Stimulus,presented,0
+46625,Stimulus,presented,1
+46937,Keyboard,received,32,wait
+47030,Stimulus,presented,0
+49192,Stimulus,presented,1
+49469,Keyboard,received,32,wait
+49560,Stimulus,presented,0
+52059,Stimulus,presented,1
+52329,Keyboard,received,32,wait
+52425,Stimulus,presented,0
+55092,Stimulus,presented,1
+55369,Keyboard,received,32,wait
+55465,Stimulus,presented,0
+57928,Stimulus,presented,1
+58209,Keyboard,received,32,wait
+58303,Stimulus,presented,0
+60626,Stimulus,presented,1
+60898,Keyboard,received,32,wait
+60992,Stimulus,presented,0
+63443,Stimulus,presented,1
+63697,Keyboard,received,32,wait
+63793,Stimulus,presented,0
+66243,Stimulus,presented,1
+66526,Keyboard,received,32,wait
+66620,Stimulus,presented,0
+69276,Stimulus,presented,1
+69594,Keyboard,received,32,wait
+69686,Stimulus,presented,0
+72343,Stimulus,presented,1
+72609,Keyboard,received,32,wait
+72701,Stimulus,presented,0
+75643,Stimulus,presented,1
+75914,Keyboard,received,32,wait
+76010,Stimulus,presented,0
+78678,Stimulus,presented,1
+78949,Keyboard,received,32,wait
+79044,Stimulus,presented,0
+81527,Stimulus,presented,1
+81813,Keyboard,received,32,wait
+81905,Stimulus,presented,0
+84777,Stimulus,presented,1
+85033,Keyboard,received,32,wait
+85144,Stimulus,presented,0
+87561,Stimulus,presented,1
+87817,Keyboard,received,32,wait
+87911,Stimulus,presented,0
+90194,Stimulus,presented,1
+90486,Keyboard,received,32,wait
+90580,Stimulus,presented,0
+92644,Stimulus,presented,1
+92910,Keyboard,received,32,wait
+93004,Stimulus,presented,0
+95945,Stimulus,presented,1
+96357,Keyboard,received,32,wait
+96452,Stimulus,presented,0
+99128,Stimulus,presented,1
+99402,Keyboard,received,32,wait
+99497,Stimulus,presented,0
+101674,Stimulus,played,b'click.wav'
+102273,Keyboard,received,32,wait
+102365,Stimulus,presented,0
+105238,Stimulus,played,b'click.wav'
+105542,Keyboard,received,32,wait
+105628,Stimulus,presented,0
+108546,Stimulus,played,b'click.wav'
+108826,Keyboard,received,32,wait
+108912,Stimulus,presented,0
+111226,Stimulus,played,b'click.wav'
+111525,Keyboard,received,32,wait
+111612,Stimulus,presented,0
+114430,Stimulus,played,b'click.wav'
+114734,Keyboard,received,32,wait
+114820,Stimulus,presented,0
+117540,Stimulus,played,b'click.wav'
+117834,Keyboard,received,32,wait
+117920,Stimulus,presented,0
+120847,Stimulus,played,b'click.wav'
+121125,Keyboard,received,32,wait
+121213,Stimulus,presented,0
+123497,Stimulus,played,b'click.wav'
+123834,Keyboard,received,32,wait
+123919,Stimulus,presented,0
+126838,Stimulus,played,b'click.wav'
+126910,Keyboard,received,32,wait
+126999,Stimulus,presented,0
+129241,Stimulus,played,b'click.wav'
+129558,Keyboard,received,32,wait
+129647,Stimulus,presented,0
+132513,Stimulus,played,b'click.wav'
+132782,Keyboard,received,32,wait
+132866,Stimulus,presented,0
+134914,Stimulus,played,b'click.wav'
+135230,Keyboard,received,32,wait
+135330,Stimulus,presented,0
+138291,Stimulus,played,b'click.wav'
+138542,Keyboard,received,32,wait
+138631,Stimulus,presented,0
+140663,Stimulus,played,b'click.wav'
+140970,Keyboard,received,32,wait
+141058,Stimulus,presented,0
+143592,Stimulus,played,b'click.wav'
+143838,Keyboard,received,32,wait
+143925,Stimulus,presented,0
+146597,Stimulus,played,b'click.wav'
+146858,Keyboard,received,32,wait
+146948,Stimulus,presented,0
+149025,Stimulus,played,b'click.wav'
+149342,Keyboard,received,32,wait
+149431,Stimulus,presented,0
+151595,Stimulus,played,b'click.wav'
+151886,Keyboard,received,32,wait
+151971,Stimulus,presented,0
+154926,Stimulus,played,b'click.wav'
+155210,Keyboard,received,32,wait
+155298,Stimulus,presented,0
+157925,Stimulus,played,b'click.wav'
+158218,Keyboard,received,32,wait
+158304,Stimulus,presented,0
+161049,Stimulus,played,b'click.wav'
+161306,Keyboard,received,32,wait
+161393,Stimulus,presented,0
+164098,Stimulus,played,b'click.wav'
+164355,Keyboard,received,32,wait
+164450,Stimulus,presented,0
+167140,Stimulus,played,b'click.wav'
+167446,Keyboard,received,32,wait
+167535,Stimulus,presented,0
+169867,Stimulus,played,b'click.wav'
+170150,Keyboard,received,32,wait
+170236,Stimulus,presented,0
+173110,Stimulus,played,b'click.wav'
+173382,Keyboard,received,32,wait
+173467,Stimulus,presented,0
+175804,Stimulus,played,b'click.wav'
+176178,Keyboard,received,32,wait
+176266,Stimulus,presented,0
+178328,Stimulus,played,b'click.wav'
+178638,Keyboard,received,32,wait
+178727,Stimulus,presented,0
+181170,Stimulus,played,b'click.wav'
+181466,Keyboard,received,32,wait
+181554,Stimulus,presented,0
+184034,Stimulus,played,b'click.wav'
+184334,Keyboard,received,32,wait
+184433,Stimulus,presented,0
+186888,Stimulus,played,b'click.wav'
+187094,Keyboard,received,32,wait
+187183,Stimulus,presented,0
+189820,Stimulus,played,b'click.wav'
+190110,Keyboard,received,32,wait
+190200,Stimulus,presented,0
+192984,Stimulus,presented,1
+194002,Keyboard,received,32,wait
+194094,Stimulus,presented,0
+196667,Stimulus,presented,1
+196989,Keyboard,received,32,wait
+197084,Stimulus,presented,0
+199349,Stimulus,played,b'click.wav'
+199702,Keyboard,received,32,wait
+199801,Stimulus,presented,0
+201969,Stimulus,presented,1
+202286,Keyboard,received,32,wait
+202384,Stimulus,presented,0
+204976,Stimulus,played,b'click.wav'
+205245,Keyboard,received,32,wait
+205338,Stimulus,presented,0
+208251,Stimulus,presented,1
+208522,Keyboard,received,32,wait
+208618,Stimulus,presented,0
+211518,Stimulus,presented,1
+211746,Keyboard,received,32,wait
+211842,Stimulus,presented,0
+214085,Stimulus,presented,1
+214334,Keyboard,received,32,wait
+214435,Stimulus,presented,0
+217139,Stimulus,played,b'click.wav'
+217414,Keyboard,received,32,wait
+217509,Stimulus,presented,0
+219809,Stimulus,played,b'click.wav'
+220118,Keyboard,received,32,wait
+220205,Stimulus,presented,0
+223176,Stimulus,played,b'click.wav'
+223450,Keyboard,received,32,wait
+223537,Stimulus,presented,0
+226080,Stimulus,played,b'click.wav'
+226378,Keyboard,received,32,wait
+226469,Stimulus,presented,0
+229403,Stimulus,presented,1
+229666,Keyboard,received,32,wait
+229763,Stimulus,presented,0
+232446,Stimulus,played,b'click.wav'
+232742,Keyboard,received,32,wait
+232838,Stimulus,presented,0
+234936,Stimulus,presented,1
+235222,Keyboard,received,32,wait
+235320,Stimulus,presented,0
+237830,Stimulus,played,b'click.wav'
+238142,Keyboard,received,32,wait
+238238,Stimulus,presented,0
+240336,Stimulus,presented,1
+240626,Keyboard,received,32,wait
+240722,Stimulus,presented,0
+243122,Stimulus,played,b'click.wav'
+243422,Keyboard,received,32,wait
+243520,Stimulus,presented,0
+246405,Stimulus,presented,1
+246730,Keyboard,received,32,wait
+246825,Stimulus,presented,0
+249492,Stimulus,played,b'click.wav'
+249812,Keyboard,received,32,wait
+249910,Stimulus,presented,0
+252192,Stimulus,played,b'click.wav'
+252530,Keyboard,received,32,wait
+252621,Stimulus,presented,0
+255407,Stimulus,played,b'click.wav'
+255682,Keyboard,received,32,wait
+255771,Stimulus,presented,0
+258504,Stimulus,presented,1
+258850,Keyboard,received,32,wait
+258946,Stimulus,presented,0
+261438,Stimulus,presented,1
+261750,Keyboard,received,32,wait
+261848,Stimulus,presented,0
+264438,Stimulus,presented,1
+264694,Keyboard,received,32,wait
+264793,Stimulus,presented,0
+267521,Stimulus,presented,1
+267778,Keyboard,received,32,wait
+267875,Stimulus,presented,0
+269972,Stimulus,played,b'click.wav'
+270314,Keyboard,received,32,wait
+270412,Stimulus,presented,0
+273205,Stimulus,presented,1
+273458,Keyboard,received,32,wait
+273555,Stimulus,presented,0
+276521,Stimulus,played,b'click.wav'
+276785,Keyboard,received,32,wait
+276786,Experiment,ended
+276786,Data,saved
+276791,Stimulus,presented,5

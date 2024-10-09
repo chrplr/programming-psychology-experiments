@@ -1,0 +1,32 @@
+#Expyriment 0.9.0 (Python 3.7.4), .xpe-file, coding: UTF-8
+#date: Tue Nov 19 2019 10:10:12
+#sha1: None
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Linux', node='is154920', release='5.3.0-23-generic', version='#25-Ubuntu SMP Tue Nov 12 09:22:33 UTC 2019', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+1181,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture,key,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+1181,design,logged,
+1181,Experiment,started
+1182,Stimulus,presented,0
+1186,Stimulus,played,b'sounds/1.wav'
+4188,Picture,loaded,b'pictures/example.jpg'
+4188,Stimulus,presented,2
+9158,Keyboard,received,32,wait
+9158,Stimulus,presented,0
+10161,Stimulus,played,b'sounds/2.wav'
+13162,Picture,loaded,b'pictures/example.jpg'
+13162,Stimulus,presented,4
+16114,Keyboard,received,97,wait
+16115,Stimulus,presented,0
+17118,Stimulus,played,b'sounds/3.wav'
+20119,Picture,loaded,b'pictures/example.jpg'
+20119,Stimulus,presented,6
+20789,Experiment,paused
+20790,Stimulus,presented,7
+21869,Keyboard,received,b'y',wait_char
+21869,Experiment,ended
+21869,Data,saved

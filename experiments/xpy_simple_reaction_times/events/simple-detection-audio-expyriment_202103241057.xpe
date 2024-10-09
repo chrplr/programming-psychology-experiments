@@ -1,0 +1,11 @@
+#Expyriment 0.10.0 (Python 3.7.9), .xpe-file, coding: UTF-8
+#date: Wed Mar 24 2021 10:57:40
+#sha1: 259347
+#modules: 
+#display: size=(3840, 2160), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='is154920', release='5.8.0-45-generic', version='#51~20.04.1-Ubuntu SMP Tue Feb 23 13:46:31 UTC 2021', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+4048,stderr,received,'Traceback (most recent call last):'
+4048,stderr,received,'  File "simple-detection-audio-expyriment.py", line 22, in <module>'
+4048,stderr,received,'    instructions = TextScreen("Instructions",'
+4048,stderr,received,"NameError: name 'TextScreen' is not defined"

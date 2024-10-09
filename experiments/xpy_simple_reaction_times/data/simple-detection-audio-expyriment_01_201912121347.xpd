@@ -1,0 +1,21 @@
+#Expyriment 0.10.0 (Python 3.7.5), .xpd-file, coding: UTF-8
+#date: Thu Dec 12 2019 13:47:01
+#--EXPERIMENT INFO
+#e mainfile: simple-detection-audio-expyriment.py
+#e sha1: cbfa33
+#e modules: 
+#e Experiment: Visual Detection
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 1
+subject_id,clock,trial,wait,respkey,RT
+1,2614,0,2615,13,788
+1,8388,1,4902,104,310
+1,10822,2,2041,104,396
+1,13463,3,2161,104,323
+1,18504,4,4634,104,290
+1,21070,5,2191,104,324
+1,24031,6,2553,104,291
+1,27542,7,3136,104,284
+1,30365,8,2453,104,332
+1,33227,9,2441,104,326

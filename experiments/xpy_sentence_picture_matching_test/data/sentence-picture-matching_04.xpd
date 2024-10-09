@@ -1,0 +1,11 @@
+#Expyriment 0.10.0 (Python 3.7.9), .xpd-file, coding: UTF-8
+#date: Tue Feb 23 2021 18:05:39
+#--EXPERIMENT INFO
+#e mainfile: sentence-picture-matching.py
+#e sha1: 6901bd
+#e modules: 
+#e Experiment: sentence picture matching task
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 4
+subject_id,sound,picture,key,rt
