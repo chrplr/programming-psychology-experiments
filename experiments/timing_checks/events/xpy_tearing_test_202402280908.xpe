@@ -1,0 +1,28 @@
+#Expyriment 0.11.dev1 (Python 3.12.0), .xpe-file, coding: UTF-8
+#date: Wed Feb 28 2024 09:08:27
+#sha1: 907508
+#modules: 
+#display: size=(800, 600), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='is154920', release='6.5.0-21-generic', version='#21~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Feb  9 13:32:52 UTC 2', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+377,stdout,received,"dict_keys([<class 'numpy.ndarray'>, <class 'bytes'>])"
+377,stderr,received,'Traceback (most recent call last):'
+377,stderr,received,'  File "/home/cp983411/00_git/PCBS/experiments/timing_checks/xpy_tearing_test.py", line 17, in <module>'
+377,stderr,received,'    control.initialize(exp)'
+377,stderr,received,'  File "/home/cp983411/.pyenv/versions/expyriment3.12/lib/python3.12/site-packages/expyriment/control/_experiment_control.py", line 495, in initialize'
+377,stderr,received,'    canvas.preload(True)'
+377,stderr,received,'  File "/home/cp983411/.pyenv/versions/expyriment3.12/lib/python3.12/site-packages/expyriment/stimuli/_visual.py", line 1068, in preload'
+377,stderr,received,'    self._ogl_screen = _LaminaPanelSurface('
+377,stderr,received,'                       ^^^^^^^^^^^^^^^^^^^^'
+377,stderr,received,'  File "/home/cp983411/.pyenv/versions/expyriment3.12/lib/python3.12/site-packages/expyriment/stimuli/_visual.py", line 79, in __init__'
+377,stderr,received,'    self.refresh_position()'
+377,stderr,received,'  File "/home/cp983411/.pyenv/versions/expyriment3.12/lib/python3.12/site-packages/expyriment/stimuli/_visual.py", line 109, in refresh_position'
+378,stderr,received,'    bottomleft = oglu.gluUnProject(screensize[0] // 2 - \\'
+378,stderr,received,'                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+378,stderr,received,'  File "/home/cp983411/.pyenv/versions/expyriment3.12/lib/python3.12/site-packages/OpenGL/latebind.py", line 63, in __call__'
+378,stderr,received,'    return self.wrapperFunction( self.baseFunction, *args, **named )'
+378,stderr,received,'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+378,stderr,received,'  File "/home/cp983411/.pyenv/versions/expyriment3.12/lib/python3.12/site-packages/OpenGL/GLU/projection.py", line 55, in gluUnProject'
+378,stderr,received,'    result = baseFunction( '
+378,stderr,received,'             ^^^^^^^^^^^^^'
+378,stderr,received,"ctypes.ArgumentError: argument 7: TypeError: No array-type handler for type _ctypes.CArgObject (value: <cparam 'P' (0x7f6e515d9da0)>) registered"
