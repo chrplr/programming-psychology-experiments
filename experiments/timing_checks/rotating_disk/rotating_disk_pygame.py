@@ -20,10 +20,10 @@ while True:
     print(t, t - prev_t)
     prev_t = t
 
-    screen.fill('Black')
-    pygame.draw.circle(screen, 'White', (
-        960 + 300 * math.cos(t / 800),
-        540 + 300 * math.sin(t / 800)),
+    screen.fill((0, 0, 0))
+    pygame.draw.circle(screen, (255, 255, 255), (
+        int(960 + 300 * math.cos(t / 800)),
+        int(540 + 300 * math.sin(t / 800))),
         20)
 
     pygame.display.update()
