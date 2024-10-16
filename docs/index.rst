@@ -15,6 +15,5 @@ Welcome to ppe's documentation!
    static-visual-stimuli.rst
    dynamic-stimuli.rst
    audio-stimuli.rst
-   reaction-times.rst
-   
+   getting-responses.rst
    
