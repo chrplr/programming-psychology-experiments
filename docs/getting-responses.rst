@@ -1,6 +1,6 @@
-******************
-Measuing Responses
-******************
+*******************
+Measuring Responses
+*******************
 
 .. contents::
 

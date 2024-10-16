@@ -19,3 +19,6 @@ auto/
 .RData
 .Rhistory
 .vscode
+events/
+data/
+*.xpd

@@ -56,12 +56,12 @@ def ilm(direction, delay=100):
 if __name__ == '__main__':
     pygame.init()
     screen = pygame.display.set_mode((W, H), pygame.DOUBLEBUF)
-    pygame.set_display('Line Motion Illusion')
+    pygame.display.set_caption('Line Motion Illusion')
 
     screen.fill(WHITE)
 
-    for dir in ['left', 'left', 'left', 'right', 'right', 'right']:
-        ilm(dir)
+    for duration in [100, 200, 500, 1000, 2000]:
+        ilm('left', duration)
         pygame.time.wait(2000)
 
     pygame.quit()

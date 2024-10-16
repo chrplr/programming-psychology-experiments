@@ -31,7 +31,7 @@ while True:
     exp.screen.update()
     
     exp.clock.wait(2000)
-    k.reset(ndots, direction, p)
+    k.reset(100, sample([0, 180], k=1)[0], p)
 
 control.end()
 
