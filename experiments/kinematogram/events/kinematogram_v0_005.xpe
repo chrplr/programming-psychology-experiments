@@ -1,0 +1,18 @@
+#Expyriment 0.11.dev5 (Python 3.12.0), .xpe-file, coding: UTF-8
+#date: Wed Oct 16 2024 16:15:22
+#sha1: 3b73f3
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='is154920', release='6.8.0-45-lowlatency', version='#45.1~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  6 15:26:10 UTC', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+793,design,log,
+#design: #exp: Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+793,design,logged,
+793,Experiment,started
+23160,Experiment,paused
+23176,Stimulus,presented,38102
+25810,Keyboard,received,y,wait_char
+25810,Experiment,ended
+25811,Data,saved
+25920,Stimulus,presented,38102

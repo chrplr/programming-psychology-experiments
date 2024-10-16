@@ -1,0 +1,12 @@
+#Expyriment 0.11.dev5 (Python 3.12.0), .xpe-file, coding: UTF-8
+#date: Wed Oct 16 2024 14:28:52
+#sha1: fe1285
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='is154920', release='6.8.0-45-lowlatency', version='#45.1~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  6 15:26:10 UTC', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+451,stderr,received,'Traceback (most recent call last):'
+451,stderr,received,'  File "/home/cp983411/00_git/ppe/experiments/kinematogram/random_walk.py", line 20, in <module>'
+452,stderr,received,'    dot = stimuli.Circle(RADIUS, misc.constant.C_WHITE)'
+452,stderr,received,'                                 ^^^^^^^^^^^^^'
+452,stderr,received,"AttributeError: module 'expyriment.misc' has no attribute 'constant'. Did you mean: 'constants'?"

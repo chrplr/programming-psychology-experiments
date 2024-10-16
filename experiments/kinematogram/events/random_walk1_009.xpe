@@ -1,0 +1,118 @@
+#Expyriment 0.11.dev5 (Python 3.12.0), .xpe-file, coding: UTF-8
+#date: Wed Oct 16 2024 15:08:06
+#sha1: 4371c3
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='is154920', release='6.8.0-45-lowlatency', version='#45.1~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  6 15:26:10 UTC', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+1167,design,log,
+#design: #exp: Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+1167,design,logged,
+1167,Experiment,started
+1168,Stimulus,presented,0
+1168,Stimulus,presented,1
+1169,Stimulus,presented,2
+1169,Stimulus,presented,3
+1169,Stimulus,presented,4
+1170,Stimulus,presented,5
+1170,Stimulus,presented,6
+1170,Stimulus,presented,7
+1171,Stimulus,presented,8
+1171,Stimulus,presented,9
+1172,Stimulus,presented,10
+1172,Stimulus,presented,11
+1172,Stimulus,presented,12
+1173,Stimulus,presented,13
+1173,Stimulus,presented,14
+1173,Stimulus,presented,15
+1174,Stimulus,presented,16
+1174,Stimulus,presented,17
+1175,Stimulus,presented,18
+1175,Stimulus,presented,19
+1175,Stimulus,presented,20
+1176,Stimulus,presented,21
+1177,Stimulus,presented,22
+1177,Stimulus,presented,23
+1177,Stimulus,presented,24
+1178,Stimulus,presented,25
+1178,Stimulus,presented,26
+1179,Stimulus,presented,27
+1179,Stimulus,presented,28
+1179,Stimulus,presented,29
+1180,Stimulus,presented,30
+1180,Stimulus,presented,31
+1180,Stimulus,presented,32
+1181,Stimulus,presented,33
+1181,Stimulus,presented,34
+1182,Stimulus,presented,35
+1182,Stimulus,presented,36
+1182,Stimulus,presented,37
+1183,Stimulus,presented,38
+1183,Stimulus,presented,39
+1183,Stimulus,presented,40
+1184,Stimulus,presented,41
+1184,Stimulus,presented,42
+1185,Stimulus,presented,43
+1185,Stimulus,presented,44
+1185,Stimulus,presented,45
+1186,Stimulus,presented,46
+1186,Stimulus,presented,47
+1186,Stimulus,presented,48
+1187,Stimulus,presented,49
+1187,Stimulus,presented,50
+1188,Stimulus,presented,51
+1188,Stimulus,presented,52
+1188,Stimulus,presented,53
+1189,Stimulus,presented,54
+1189,Stimulus,presented,55
+1190,Stimulus,presented,56
+1190,Stimulus,presented,57
+1190,Stimulus,presented,58
+1191,Stimulus,presented,59
+1191,Stimulus,presented,60
+1192,Stimulus,presented,61
+1192,Stimulus,presented,62
+1193,Stimulus,presented,63
+1193,Stimulus,presented,64
+1194,Stimulus,presented,65
+1194,Stimulus,presented,66
+1194,Stimulus,presented,67
+1195,Stimulus,presented,68
+1195,Stimulus,presented,69
+1196,Stimulus,presented,70
+1196,Stimulus,presented,71
+1196,Stimulus,presented,72
+1197,Stimulus,presented,73
+1197,Stimulus,presented,74
+1197,Stimulus,presented,75
+1198,Stimulus,presented,76
+1198,Stimulus,presented,77
+1199,Stimulus,presented,78
+1199,Stimulus,presented,79
+1199,Stimulus,presented,80
+1200,Stimulus,presented,81
+1200,Stimulus,presented,82
+1200,Stimulus,presented,83
+1201,Stimulus,presented,84
+1201,Stimulus,presented,85
+1202,Stimulus,presented,86
+1202,Stimulus,presented,87
+1203,Stimulus,presented,88
+1203,Stimulus,presented,89
+1203,Stimulus,presented,90
+1204,Stimulus,presented,91
+1204,Stimulus,presented,92
+1204,Stimulus,presented,93
+1205,Stimulus,presented,94
+1205,Stimulus,presented,95
+1206,Stimulus,presented,96
+1206,Stimulus,presented,97
+1206,Stimulus,presented,98
+1207,Stimulus,presented,99
+1209,stderr,received,'Traceback (most recent call last):'
+1209,stderr,received,'  File "/home/cp983411/00_git/ppe/experiments/kinematogram/random_walk1.py", line 37, in <module>'
+1209,stderr,received,'    speed[i][0] = -speed[i][0]'
+1209,stderr,received,'                   ^^^^^'
+1209,stderr,received,"NameError: name 'speed' is not defined. Did you mean: 'speeds'?"
+1210,Data,saved

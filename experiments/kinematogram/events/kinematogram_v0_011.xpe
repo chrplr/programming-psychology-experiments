@@ -1,0 +1,31 @@
+#Expyriment 0.11.dev5 (Python 3.12.0), .xpe-file, coding: UTF-8
+#date: Wed Oct 16 2024 16:18:55
+#sha1: f19943
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='is154920', release='6.8.0-45-lowlatency', version='#45.1~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  6 15:26:10 UTC', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+650,design,log,
+#design: #exp: Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+650,design,logged,
+650,Experiment,started
+6927,stderr,received,'Traceback (most recent call last):'
+6927,stderr,received,'  File "/home/cp983411/00_git/ppe/experiments/kinematogram/kinematogram_v0.py", line 32, in <module>'
+6927,stderr,received,'    k.reset(100, sample([0, 180], k=1), p)'
+6927,stderr,received,'  File "/home/cp983411/.pyenv/versions/expyriment-py3.12-0.11.0.dev3/.expyriment/extras/expyriment_stimuli_extras/randomdotkinematogram/_randomdotkinematogram.py", line 105, in reset'
+6927,stderr,received,'    self.target_dot_ratio = target_dot_ratio'
+6927,stderr,received,'    ^^^^^^^^^^^^^^^^^^^^^'
+6927,stderr,received,'  File "/home/cp983411/.pyenv/versions/expyriment-py3.12-0.11.0.dev3/.expyriment/extras/expyriment_stimuli_extras/randomdotkinematogram/_randomdotkinematogram.py", line 156, in target_dot_ratio'
+6927,stderr,received,'    d = self._make_random_dot(direction=self.target_direction, randomize_age=True)'
+6927,stderr,received,'        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+6927,stderr,received,'  File "/home/cp983411/.pyenv/versions/expyriment-py3.12-0.11.0.dev3/.expyriment/extras/expyriment_stimuli_extras/randomdotkinematogram/_randomdotkinematogram.py", line 182, in _make_random_dot'
+6927,stderr,received,'    rtn = MovingPosition(position=pos,'
+6927,stderr,received,'          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+6927,stderr,received,'  File "/home/cp983411/.pyenv/versions/expyriment-py3.12-0.11.0.dev3/.expyriment/extras/expyriment_stimuli_extras/randomdotkinematogram/_randomdotkinematogram.py", line 315, in __init__'
+6927,stderr,received,'    self._update_movement_vector()'
+6927,stderr,received,'  File "/home/cp983411/.pyenv/versions/expyriment-py3.12-0.11.0.dev3/.expyriment/extras/expyriment_stimuli_extras/randomdotkinematogram/_randomdotkinematogram.py", line 379, in _update_movement_vector'
+6927,stderr,received,'    direction = 450 - self._direction'
+6927,stderr,received,'                ~~~~^~~~~~~~~~~~~~~~~'
+6927,stderr,received,"TypeError: unsupported operand type(s) for -: 'int' and 'list'"
+6928,Data,saved

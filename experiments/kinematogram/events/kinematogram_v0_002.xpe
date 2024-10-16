@@ -1,0 +1,35 @@
+#Expyriment 0.11.dev5 (Python 3.12.0), .xpe-file, coding: UTF-8
+#date: Wed Oct 16 2024 16:12:28
+#sha1: ab4e62
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='is154920', release='6.8.0-45-lowlatency', version='#45.1~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  6 15:26:10 UTC', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+1057,design,log,
+#design: #exp: Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+1057,design,logged,
+1057,Experiment,started
+5490,stdout,received,'(113, 4432)'
+8891,stdout,received,'(113, 3198)'
+11025,stdout,received,'(113, 1930)'
+12557,stdout,received,'(115, 1329)'
+14091,stdout,received,'(122, 1330)'
+15977,stdout,received,'(113, 1683)'
+21190,stdout,received,'(None, None)'
+26416,stdout,received,'(None, None)'
+31625,stdout,received,'(None, None)'
+33865,stderr,received,'Traceback (most recent call last):'
+33865,stderr,received,'  File "/home/cp983411/00_git/ppe/experiments/kinematogram/kinematogram_v0.py", line 23, in <module>'
+33865,stderr,received,'    print(k.present_and_wait_keyboard(duration=5000))'
+33866,stderr,received,'          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+33866,stderr,received,'  File "/home/cp983411/.pyenv/versions/expyriment-py3.12-0.11.0.dev3/.expyriment/extras/expyriment_stimuli_extras/randomdotkinematogram/_randomdotkinematogram.py", line 264, in present_and_wait_keyboard'
+33866,stderr,received,'    self.make_frame(background_stimulus=background_stimulus).present()'
+33866,stderr,received,'  File "/home/cp983411/.pyenv/versions/expyriment-py3.12-0.11.0.dev3/lib/python3.12/site-packages/expyriment/stimuli/_visual.py", line 1202, in present'
+33867,stderr,received,'    _internals.active_exp.screen.update()'
+33867,stderr,received,'  File "/home/cp983411/.pyenv/versions/expyriment-py3.12-0.11.0.dev3/lib/python3.12/site-packages/expyriment/io/_screen.py", line 237, in update'
+33868,stderr,received,'    ogl.glFinish()'
+33868,stderr,received,'  File "/home/cp983411/.pyenv/versions/expyriment-py3.12-0.11.0.dev3/lib/python3.12/site-packages/OpenGL/error.py", line 208, in glCheckError'
+33868,stderr,received,'    def glCheckError( '
+33868,stderr,received,''
+33868,stderr,received,'KeyboardInterrupt'

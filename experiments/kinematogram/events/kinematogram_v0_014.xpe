@@ -1,0 +1,20 @@
+#Expyriment 0.11.dev5 (Python 3.12.0), .xpe-file, coding: UTF-8
+#date: Wed Oct 16 2024 16:22:22
+#sha1: 0bb8ac
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='is154920', release='6.8.0-45-lowlatency', version='#45.1~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  6 15:26:10 UTC', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+901,design,log,
+#design: #exp: Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+901,design,logged,
+901,Experiment,started
+13467,stderr,received,'Traceback (most recent call last):'
+13467,stderr,received,'  File "/home/cp983411/00_git/ppe/experiments/kinematogram/kinematogram_v0.py", line 33, in <module>'
+13467,stderr,received,'    exp.clock.wait(2000)'
+13467,stderr,received,'  File "/home/cp983411/.pyenv/versions/expyriment-py3.12-0.11.0.dev3/lib/python3.12/site-packages/expyriment/misc/_clock.py", line 146, in wait'
+13467,stderr,received,'    while (self.time < start + (waiting_time - looptime)):'
+13467,stderr,received,'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+13467,stderr,received,'KeyboardInterrupt'
+13467,Data,saved

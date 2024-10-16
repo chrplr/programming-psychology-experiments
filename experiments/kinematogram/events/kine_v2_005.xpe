@@ -1,0 +1,57 @@
+#Expyriment 0.11.dev5 (Python 3.12.0), .xpe-file, coding: UTF-8
+#date: Wed Oct 16 2024 16:09:16
+#sha1: f4d0b7
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='is154920', release='6.8.0-45-lowlatency', version='#45.1~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  6 15:26:10 UTC', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+776,design,log,
+#design: #exp: Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+776,design,logged,
+776,Experiment,started
+782,stdout,received,'(None, None)'
+992,stdout,received,'(None, None)'
+1220,stdout,received,'(None, None)'
+1442,stdout,received,'(None, None)'
+1670,stdout,received,'(None, None)'
+1887,stdout,received,'(None, None)'
+2103,stdout,received,'(None, None)'
+2322,stdout,received,'(None, None)'
+2538,stdout,received,'(None, None)'
+2755,stdout,received,'(None, None)'
+2970,stdout,received,'(None, None)'
+3189,stdout,received,'(None, None)'
+3404,stdout,received,'(None, None)'
+3620,stdout,received,'(None, None)'
+3837,stdout,received,'(None, None)'
+4053,stdout,received,'(None, None)'
+4266,stdout,received,'(None, None)'
+4472,stdout,received,'(None, None)'
+4696,stdout,received,'(None, None)'
+4915,stdout,received,'(None, None)'
+5134,stdout,received,'(None, None)'
+5354,stdout,received,'(None, None)'
+5571,stdout,received,'(None, None)'
+5788,stdout,received,'(None, None)'
+6004,stdout,received,'(None, None)'
+6221,stdout,received,'(None, None)'
+6438,stdout,received,'(None, None)'
+6648,stdout,received,'(None, None)'
+6867,stdout,received,'(None, None)'
+7087,stdout,received,'(None, None)'
+7298,stdout,received,'(None, None)'
+8504,stderr,received,'Traceback (most recent call last):'
+8504,stderr,received,'  File "/home/cp983411/00_git/ppe/experiments/kinematogram/kine_v2.py", line 25, in <module>'
+8504,stderr,received,'    print(k.present_and_wait_keyboard(duration=5))'
+8504,stderr,received,'          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+8504,stderr,received,'  File "/home/cp983411/.pyenv/versions/expyriment-py3.12-0.11.0.dev3/.expyriment/extras/expyriment_stimuli_extras/randomdotkinematogram/_randomdotkinematogram.py", line 264, in present_and_wait_keyboard'
+8506,stderr,received,'    self.make_frame(background_stimulus=background_stimulus).present()'
+8506,stderr,received,'  File "/home/cp983411/.pyenv/versions/expyriment-py3.12-0.11.0.dev3/lib/python3.12/site-packages/expyriment/stimuli/_visual.py", line 1202, in present'
+8507,stderr,received,'    _internals.active_exp.screen.update()'
+8507,stderr,received,'  File "/home/cp983411/.pyenv/versions/expyriment-py3.12-0.11.0.dev3/lib/python3.12/site-packages/expyriment/io/_screen.py", line 237, in update'
+8508,stderr,received,'    ogl.glFinish()'
+8508,stderr,received,'  File "/home/cp983411/.pyenv/versions/expyriment-py3.12-0.11.0.dev3/lib/python3.12/site-packages/OpenGL/error.py", line 208, in glCheckError'
+8508,stderr,received,'    def glCheckError( '
+8508,stderr,received,''
+8508,stderr,received,'KeyboardInterrupt'

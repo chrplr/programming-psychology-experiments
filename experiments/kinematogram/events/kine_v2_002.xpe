@@ -1,0 +1,16 @@
+#Expyriment 0.11.dev5 (Python 3.12.0), .xpe-file, coding: UTF-8
+#date: Wed Oct 16 2024 16:05:50
+#sha1: 66f9bb
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='is154920', release='6.8.0-45-lowlatency', version='#45.1~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  6 15:26:10 UTC', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+1040,design,log,
+#design: #exp: Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+1040,design,logged,
+1040,Experiment,started
+1080,stderr,received,'Traceback (most recent call last):'
+1080,stderr,received,'  File "/home/cp983411/00_git/ppe/experiments/kinematogram/kine_v2.py", line 26, in <module>'
+1080,stderr,received,'    k.reset(200, 100, randint(0, 360), .2)'
+1080,stderr,received,'TypeError: RandomDotKinematogram.reset() takes 4 positional arguments but 5 were given'

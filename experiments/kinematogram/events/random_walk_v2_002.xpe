@@ -1,0 +1,118 @@
+#Expyriment 0.11.dev5 (Python 3.12.0), .xpe-file, coding: UTF-8
+#date: Wed Oct 16 2024 15:25:45
+#sha1: 51121d
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='is154920', release='6.8.0-45-lowlatency', version='#45.1~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  6 15:26:10 UTC', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+980,design,log,
+#design: #exp: Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+980,design,logged,
+980,Experiment,started
+981,Stimulus,presented,0
+981,Stimulus,presented,1
+982,Stimulus,presented,2
+982,Stimulus,presented,3
+983,Stimulus,presented,4
+983,Stimulus,presented,5
+983,Stimulus,presented,6
+984,Stimulus,presented,7
+984,Stimulus,presented,8
+985,Stimulus,presented,9
+985,Stimulus,presented,10
+985,Stimulus,presented,11
+986,Stimulus,presented,12
+986,Stimulus,presented,13
+986,Stimulus,presented,14
+987,Stimulus,presented,15
+987,Stimulus,presented,16
+988,Stimulus,presented,17
+988,Stimulus,presented,18
+989,Stimulus,presented,19
+989,Stimulus,presented,20
+990,Stimulus,presented,21
+990,Stimulus,presented,22
+990,Stimulus,presented,23
+991,Stimulus,presented,24
+991,Stimulus,presented,25
+991,Stimulus,presented,26
+992,Stimulus,presented,27
+992,Stimulus,presented,28
+993,Stimulus,presented,29
+993,Stimulus,presented,30
+993,Stimulus,presented,31
+994,Stimulus,presented,32
+994,Stimulus,presented,33
+995,Stimulus,presented,34
+995,Stimulus,presented,35
+995,Stimulus,presented,36
+996,Stimulus,presented,37
+996,Stimulus,presented,38
+996,Stimulus,presented,39
+997,Stimulus,presented,40
+997,Stimulus,presented,41
+998,Stimulus,presented,42
+998,Stimulus,presented,43
+998,Stimulus,presented,44
+999,Stimulus,presented,45
+999,Stimulus,presented,46
+1000,Stimulus,presented,47
+1000,Stimulus,presented,48
+1000,Stimulus,presented,49
+1001,Stimulus,presented,50
+1001,Stimulus,presented,51
+1002,Stimulus,presented,52
+1002,Stimulus,presented,53
+1002,Stimulus,presented,54
+1003,Stimulus,presented,55
+1003,Stimulus,presented,56
+1004,Stimulus,presented,57
+1004,Stimulus,presented,58
+1004,Stimulus,presented,59
+1005,Stimulus,presented,60
+1006,Stimulus,presented,61
+1006,Stimulus,presented,62
+1006,Stimulus,presented,63
+1007,Stimulus,presented,64
+1007,Stimulus,presented,65
+1008,Stimulus,presented,66
+1008,Stimulus,presented,67
+1008,Stimulus,presented,68
+1009,Stimulus,presented,69
+1009,Stimulus,presented,70
+1009,Stimulus,presented,71
+1010,Stimulus,presented,72
+1010,Stimulus,presented,73
+1011,Stimulus,presented,74
+1011,Stimulus,presented,75
+1011,Stimulus,presented,76
+1012,Stimulus,presented,77
+1012,Stimulus,presented,78
+1012,Stimulus,presented,79
+1013,Stimulus,presented,80
+1013,Stimulus,presented,81
+1014,Stimulus,presented,82
+1014,Stimulus,presented,83
+1014,Stimulus,presented,84
+1015,Stimulus,presented,85
+1015,Stimulus,presented,86
+1015,Stimulus,presented,87
+1016,Stimulus,presented,88
+1016,Stimulus,presented,89
+1017,Stimulus,presented,90
+1017,Stimulus,presented,91
+1017,Stimulus,presented,92
+1018,Stimulus,presented,93
+1018,Stimulus,presented,94
+1019,Stimulus,presented,95
+1019,Stimulus,presented,96
+1019,Stimulus,presented,97
+1020,Stimulus,presented,98
+1020,Stimulus,presented,99
+1022,stderr,received,'Traceback (most recent call last):'
+1022,stderr,received,'  File "/home/cp983411/00_git/ppe/experiments/kinematogram/random_walk_v2.py", line 40, in <module>'
+1022,stderr,received,'    x, y =  dots.position'
+1022,stderr,received,'            ^^^^^^^^^^^^^'
+1023,stderr,received,"AttributeError: 'list' object has no attribute 'position'"
+1023,Data,saved

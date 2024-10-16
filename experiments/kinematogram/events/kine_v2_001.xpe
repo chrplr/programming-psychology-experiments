@@ -1,0 +1,17 @@
+#Expyriment 0.11.dev5 (Python 3.12.0), .xpe-file, coding: UTF-8
+#date: Wed Oct 16 2024 16:05:36
+#sha1: 1a2c8a
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='is154920', release='6.8.0-45-lowlatency', version='#45.1~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  6 15:26:10 UTC', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+853,design,log,
+#design: #exp: Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+853,design,logged,
+853,Experiment,started
+867,stderr,received,'Traceback (most recent call last):'
+867,stderr,received,'  File "/home/cp983411/00_git/ppe/experiments/kinematogram/kine_v2.py", line 26, in <module>'
+867,stderr,received,'    k.reset(200, 100, random.randint(0, 360), .2)'
+867,stderr,received,'                      ^^^^^^'
+867,stderr,received,"NameError: name 'random' is not defined. Did you forget to import 'random'?"

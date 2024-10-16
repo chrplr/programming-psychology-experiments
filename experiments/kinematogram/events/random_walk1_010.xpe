@@ -1,0 +1,118 @@
+#Expyriment 0.11.dev5 (Python 3.12.0), .xpe-file, coding: UTF-8
+#date: Wed Oct 16 2024 15:08:38
+#sha1: dd1f49
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='is154920', release='6.8.0-45-lowlatency', version='#45.1~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  6 15:26:10 UTC', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+2096,design,log,
+#design: #exp: Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+2096,design,logged,
+2096,Experiment,started
+2097,Stimulus,presented,0
+2097,Stimulus,presented,1
+2098,Stimulus,presented,2
+2098,Stimulus,presented,3
+2099,Stimulus,presented,4
+2099,Stimulus,presented,5
+2100,Stimulus,presented,6
+2100,Stimulus,presented,7
+2100,Stimulus,presented,8
+2101,Stimulus,presented,9
+2101,Stimulus,presented,10
+2102,Stimulus,presented,11
+2102,Stimulus,presented,12
+2102,Stimulus,presented,13
+2103,Stimulus,presented,14
+2103,Stimulus,presented,15
+2104,Stimulus,presented,16
+2104,Stimulus,presented,17
+2104,Stimulus,presented,18
+2105,Stimulus,presented,19
+2105,Stimulus,presented,20
+2106,Stimulus,presented,21
+2106,Stimulus,presented,22
+2106,Stimulus,presented,23
+2107,Stimulus,presented,24
+2107,Stimulus,presented,25
+2108,Stimulus,presented,26
+2108,Stimulus,presented,27
+2108,Stimulus,presented,28
+2109,Stimulus,presented,29
+2109,Stimulus,presented,30
+2109,Stimulus,presented,31
+2110,Stimulus,presented,32
+2110,Stimulus,presented,33
+2111,Stimulus,presented,34
+2111,Stimulus,presented,35
+2111,Stimulus,presented,36
+2112,Stimulus,presented,37
+2112,Stimulus,presented,38
+2112,Stimulus,presented,39
+2113,Stimulus,presented,40
+2114,Stimulus,presented,41
+2114,Stimulus,presented,42
+2114,Stimulus,presented,43
+2115,Stimulus,presented,44
+2115,Stimulus,presented,45
+2116,Stimulus,presented,46
+2116,Stimulus,presented,47
+2117,Stimulus,presented,48
+2117,Stimulus,presented,49
+2117,Stimulus,presented,50
+2118,Stimulus,presented,51
+2118,Stimulus,presented,52
+2119,Stimulus,presented,53
+2119,Stimulus,presented,54
+2119,Stimulus,presented,55
+2120,Stimulus,presented,56
+2120,Stimulus,presented,57
+2120,Stimulus,presented,58
+2121,Stimulus,presented,59
+2121,Stimulus,presented,60
+2122,Stimulus,presented,61
+2122,Stimulus,presented,62
+2122,Stimulus,presented,63
+2123,Stimulus,presented,64
+2123,Stimulus,presented,65
+2124,Stimulus,presented,66
+2124,Stimulus,presented,67
+2124,Stimulus,presented,68
+2125,Stimulus,presented,69
+2125,Stimulus,presented,70
+2126,Stimulus,presented,71
+2126,Stimulus,presented,72
+2126,Stimulus,presented,73
+2127,Stimulus,presented,74
+2127,Stimulus,presented,75
+2128,Stimulus,presented,76
+2128,Stimulus,presented,77
+2128,Stimulus,presented,78
+2129,Stimulus,presented,79
+2129,Stimulus,presented,80
+2130,Stimulus,presented,81
+2130,Stimulus,presented,82
+2131,Stimulus,presented,83
+2131,Stimulus,presented,84
+2132,Stimulus,presented,85
+2132,Stimulus,presented,86
+2132,Stimulus,presented,87
+2133,Stimulus,presented,88
+2133,Stimulus,presented,89
+2134,Stimulus,presented,90
+2134,Stimulus,presented,91
+2134,Stimulus,presented,92
+2135,Stimulus,presented,93
+2135,Stimulus,presented,94
+2136,Stimulus,presented,95
+2136,Stimulus,presented,96
+2136,Stimulus,presented,97
+2137,Stimulus,presented,98
+2137,Stimulus,presented,99
+2138,stderr,received,'Traceback (most recent call last):'
+2138,stderr,received,'  File "/home/cp983411/00_git/ppe/experiments/kinematogram/random_walk1.py", line 40, in <module>'
+2139,stderr,received,'    speeds[i][1] = -speeds[i][1]'
+2139,stderr,received,'    ~~~~~~~~~^^^'
+2139,stderr,received,"TypeError: 'tuple' object does not support item assignment"
+2139,Data,saved
