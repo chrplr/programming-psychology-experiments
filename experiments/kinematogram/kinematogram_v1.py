@@ -10,16 +10,16 @@ import expyriment.stimuli.extras
 from expyriment.stimuli.extras import RandomDotKinematogram
 
 exp = design.Experiment(name="Experiment")
-control.set_develop_mode(on=True)  ## Set develop mode. Comment out for actual experiment
+#control.set_develop_mode(on=True)  ## Set develop mode. Comment out for actual experiment
 
 control.initialize(exp)
 
-p = 0.8
+p = 0.5
 direction = 180
-ndots  = 100
+ndots  = 300
 DURATION = 5000
 
-k = RandomDotKinematogram(200, ndots, direction, p, dot_lifetime=DURATION)
+k = RandomDotKinematogram(400, ndots, direction, p, dot_lifetime=DURATION)
 k.make_frame()
 
 control.start()

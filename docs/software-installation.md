@@ -39,7 +39,14 @@ Install the version control software *Git*, following the instructions at
 Under Windows, you will download the Git for Windows installer from <https://git-scm.com/download/win>
 
 :::{note} Windows only.
-   **IMPORTANT**: During the installation, you can accept all defaults EXCEPT for the "Adjusting your PATH environment" page, where you must tick the box  "Use Git and optional unix tools from the command line prompt". (You can accept all the other defaults).
+   **IMPORTANT**: During the installation:
+   
+   - In "Choosing the default Editor used by Git", select `Use Notepad`
+   - In "Adjusting your PATH environment", select `Use Git and optional Unix tools...`
+   - In "Configuring the Terminal emulator", select `Use MinTTY`   
+ 
+     You can keep the defaults for all other options.
+
 :::
 
 ### git local configuration
@@ -123,7 +130,7 @@ Important. Make sure to select 'Add python.exe to PATH' when running the install
 Open a terminal (`Git bash` in Windows), and type:
 
 ```
-pip install ipython jupyter numpy matplotlib pandas 
+pip install ipython jupyter numpy matplotlib pandas seaborn
 ```
 
 ## Pygame
@@ -146,6 +153,13 @@ To install the latest development version, type:
 python -m pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple --pre expyriment
 ```
 
+Then,  run:
 
-:::{note} (only for advanced python users): you might want to create a virtual environment for expyriment (with conda, pyenv, ...)
+```
+expyriment -D
+```
+
+And type `master` when given a choice to select a branch. 
+
+:::{note} (only for advanced python users): you might want to create a virtual environment for expyriment (with conda, pyenv, uv...)
 :::

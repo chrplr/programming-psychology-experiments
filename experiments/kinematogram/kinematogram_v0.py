@@ -15,12 +15,11 @@ control.set_develop_mode(on=True)  ## Set develop mode. Comment out for actual e
 control.initialize(exp)
 
 p = 0.8
-direction = 180
+direction = 90  # in degrees (0=up)
 ndots  = 100
 DURATION = 5000
 
 k = RandomDotKinematogram(200, ndots, direction, p, dot_lifetime=DURATION)
-k.make_frame()
 
 control.start()
 
