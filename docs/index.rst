@@ -16,4 +16,4 @@ Welcome to ppe's documentation!
    dynamic-stimuli.rst
    audio-stimuli.rst
    getting-responses.rst
-   
+   jspsych-basics-the-timeline.md
