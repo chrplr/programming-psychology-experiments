@@ -20,7 +20,6 @@ ndots  = 300
 DURATION = 5000
 
 k = RandomDotKinematogram(400, ndots, direction, p, dot_lifetime=DURATION)
-k.make_frame()
 
 control.start()
 

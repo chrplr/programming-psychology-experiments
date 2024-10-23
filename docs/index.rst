@@ -6,6 +6,10 @@
 Welcome to ppe's documentation!
 ===============================
 
+Git repository on github (contains slides, solutions to exercices, and more)
+  https://github.com/chrplr/programming-psychology-experiments
+
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
@@ -16,4 +20,8 @@ Welcome to ppe's documentation!
    dynamic-stimuli.rst
    audio-stimuli.rst
    getting-responses.rst
+   arduino_response_key.md
+   triggers.md
+   
+   
    
