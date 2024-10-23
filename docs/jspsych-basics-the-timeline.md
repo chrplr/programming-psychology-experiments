@@ -17,6 +17,7 @@ The current page you are viewing is nothing but a file opened by your browser us
 
 Objectives :
 - Get an idea of how a web experiment works
+- Distinguish HTML and JavaScript
 - Get familiar with the skeleton of jsPsych and the notion of timeline.
 - We'll also introduce basic functionalities of JavaScript and HTML. Ultimately, you will have to know them or be able to find them online (which is an entirely valid strategy!). But this isn't exactly our main focus.
 
@@ -100,6 +101,11 @@ You may also have noticed to important novelties: one in the specification of th
 #### The `<p>` paragraph tag.
 
 You can see that several groups of sentences are enclosed within a `<p></p>` tag. In HTML, tags define parts of the document, here a paragraph (hence the `<p>`). This are very useful to structure your document, and it helps jsPsych present it nicely (by physically separating paragraphs).
+
+```html
+<p>This is a first HTML paragraph!</p>
+<p>And this is another one!</p>
+```
 
 ##### `jsPsych.randomization.repeat`
 
