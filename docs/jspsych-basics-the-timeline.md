@@ -145,7 +145,7 @@ This structure means that whenever you run the `nestedTrial` trial, you first ru
 
 ### Stroop task: defining HTML color
 
-Your assignement for next week will be to code a small stroop task. To change the color of a paragraph in HTML, you just have to specify it within the `<p>` paragraph tag:
+Your assignement for next week will be to code a small stroop task. You have to add a fixation cross before each trial, and (very short) blank after each. To change the color of a paragraph in HTML, you just have to specify it within the `<p>` paragraph tag:
 
 ```html
 <p style='color: red'>This text is colored in red.</p>
