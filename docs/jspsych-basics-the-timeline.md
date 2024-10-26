@@ -111,6 +111,12 @@ You can see that several groups of sentences are enclosed within a `<p></p>` tag
 
  You can use `jsPsych.randomization.repeat` to create identical repetitions of an item in a list, which is very helpful to have several identical trials. You also get random shuffling at the time (try to think of how you can adapt this).
 
+ ```javascript
+ let l = [1, 2, 3, 4];
+ let shuffledRepeated = jsPsych.randomization.repeat(l, 2);
+ // Example of output: [1, 3, 2, 3, 4, 1, 4, 2]
+ ```
+
 **There are two important takeaways from this alternative correction.** First, jsPsych offers you a lot of tools that can save you some lines/time. Second, being able to write proper HTML code will help you tremendously in designing efficient stimuli.
 
 ## Organising events: nested timelines
