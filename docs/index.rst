@@ -21,5 +21,6 @@ Git repository on github (contains slides, solutions to exercices, and more)
    audio-stimuli.rst
    getting-responses.rst
    jspsych-basics-the-timeline.md
+   jspsych-nodes-and-trials.md
    arduino_response_key.md
    triggers.md
