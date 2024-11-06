@@ -50,7 +50,16 @@ Note that the `timeline` is played entirely for each timeline_variable! In the c
 ```javascript
 let timelineWithParameters = {
   timeline: [trial],
-  timeline_variable: [{variable: value1}, {variable: value2}]
+  timeline_variable: [{variable_name: value1}, {variable_name: value2}]
+}
+```
+
+To access the variable in your trial, you will have to call `jsPsych.timelineVariable("variable_name")`, with `variable_name` being the name of your variable.
+
+```javascript
+let trial = {
+  type: ...,
+  stimulus: jsPsych.timelineVariable("stimulus"),
 }
 ```
 

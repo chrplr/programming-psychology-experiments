@@ -14,12 +14,14 @@
     const BLANK_DURATION = 50 // ms;
 
     // We add a lower case factor in our design
-    function createKeyPressTrial(targetKey, lowerCase, keys, blankDuration){      
+    function createKeyPressTrial(targetKey, lowerCase, keys, blankDuration){
       let stimulusDisplayTrial = {
         type: jsPsychHtmlKeyboardResponse,
-        stimulus: lowerCase ? targetKey : targetKey.toLocaleLowerCase(),
+        // if x then y else z
+        stimulus: lowerCase ? targetKey.toLocaleLowerCase() : targetKey.toUpperCase();
         choices: keys,
         post_trial_gap: blankDuration,
+        stimulus_duration: 1000,
         data: {
           lowerCase: lowerCase,
           targetKey: targetKey
