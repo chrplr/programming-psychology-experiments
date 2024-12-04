@@ -26,7 +26,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>Pseudoword generation</title>
+    <title>Sound manipulation</title>
 
   
     <style type="text/css" media="">h1, h2, h3, h4, h5, h6,
@@ -1430,26 +1430,25 @@ pre { background: #fdf6e3; color: #586e75; }
     </div>
     <div class="slides">
       
-      <!-- slide source: lecture8.md -->
+      <!-- slide source: lecture9.md -->
       <div class="slide-wrapper">
         <div class="slide slide-1">
           <div class="inner">
             
-            <header><h1>Pseudoword generation</h1></header>
+            <header><h1>Sound manipulation</h1></header>
             
             
-            <section><ol>
+            <section><p>Open Praat (<a href="https://www.fon.hum.uva.nl/praat/">https://www.fon.hum.uva.nl/praat/</a>).</p>
+<ol>
+<li>Select and Run <code>New/Create Sound as Pure Tone</code>, then View/Edit </li>
 <li>
-<p>First idea: generate random strings of letter.</p>
+<p>Select and Run <code>New/Create Sound from Formula</code></p>
 </li>
 <li>
-<p>How to improve pseudwords generation?</p>
-<ul>
-<li>respect  orthographic / morphological rules</li>
-<li>respect  statistics of letter sequences </li>
-<li>both</li>
-</ul>
+<p>Create a 200ms long white noise (Formula=<code>randomUniform(-.8, .8)</code>) and save it as <code>noise.wav</code></p>
 </li>
+<li>Create a pure tone with freq 440 and amplitude 0.05, and save it as <code>signal.wav</code> </li>
+<li>add signal and noise sound and save the result as <code>noise_signal.wav</code></li>
 </ol></section>
             
           </div>
@@ -1463,7 +1462,7 @@ pre { background: #fdf6e3; color: #586e75; }
             
             
             <aside class="source">
-              Source: <a href="lecture8.md">lecture8.md</a>
+              Source: <a href="lecture9.md">lecture9.md</a>
             </aside>
             
             <aside class="page_number">
@@ -1473,23 +1472,24 @@ pre { background: #fdf6e3; color: #586e75; }
         </div>
       </div>
       
-      <!-- slide source: lecture8.md -->
+      <!-- slide source: lecture9.md -->
       <div class="slide-wrapper">
         <div class="slide slide-2">
           <div class="inner">
             
-            <header><h1>Lexical Frequency Distributions</h1></header>
+            <header><h1>Signal detection experiment</h1></header>
             
             
-            <section><ul>
-<li>Download the text files from the <code>plain1</code> folder of <a href="https://github.com/COST-ELTeC/ELTeC-fra">https://github.com/COST-ELTeC/ELTeC-fra</a></li>
-<li>Write a python script that count the number of occurences of  letter string spearated by spaces, and plot the distribution.</li>
-<li>install the <code>wordfreq</code> python library; use to list the 100 most frequent french words</li>
-<li>Write a script that computes the frequencies of letters </li>
-<li>Generate pseudowords that respect the frequecy of letters</li>
-<li>(skip it) Compute the frequency of bigrams (pair of letters), and generate words that respect the frquency of bigrams. </li>
-</ul>
-<p>Check the Unipseudo app from http://openlexicon.fr</p></section>
+            <section><p>At each trial, either <code>noise.wav</code> or <code>noise_signal.wav</code> is played</p>
+<p>The participant must press one of to keys (forced choice) indicating whether he hear the ignal of note. </p>
+<ul>
+<li>
+<p>Compute Hit Rate (hr) and False Alarms rate (fa) </p>
+</li>
+<li>
+<p>Computer d' and beta fro signal detection theory (see <a href="https://www.pallier.org/pdfs/aprime.pdf">https://www.pallier.org/pdfs/aprime.pdf</a>)</p>
+</li>
+</ul></section>
             
           </div>
           <div class="presenter_notes">
@@ -1502,7 +1502,7 @@ pre { background: #fdf6e3; color: #586e75; }
             
             
             <aside class="source">
-              Source: <a href="lecture8.md">lecture8.md</a>
+              Source: <a href="lecture9.md">lecture9.md</a>
             </aside>
             
             <aside class="page_number">
@@ -1512,18 +1512,16 @@ pre { background: #fdf6e3; color: #586e75; }
         </div>
       </div>
       
-      <!-- slide source: lecture8.md -->
+      <!-- slide source: lecture9.md -->
       <div class="slide-wrapper">
         <div class="slide slide-3">
           <div class="inner">
             
-            <header><h1>The Lexique database</h1></header>
+            <header><h1>Segmenting and extracting audio stimuli with Praat</h1></header>
             
             
-            <section><p>The <em>Lexique database</em> provides detailed inofmration for a 140k French words. </p>
-<p>To view it and query it interactively, use the <em>OpenlexiconApp</em> from https://openlexicon.fr (To learn about <strong>Regular Expressions</strong>, see <a href="https://pcbs.readthedocs.io/en/latest/regular_expressions.html">https://pcbs.readthedocs.io/en/latest/regular_expressions.html</a>)</p>
-<p>To query it from R, see <a href="https://github.com/chrplr/openlexicon/blob/master/documents/Interroger-Lexique-avec-R/interroger-lexique-avec-R.pdf">https://github.com/chrplr/openlexicon/blob/master/documents/Interroger-Lexique-avec-R/interroger-lexique-avec-R.pdf</a></p>
-<p>To query it from Python, check  <a href="http://www.lexique.org/?page_id=76">http://www.lexique.org/?page_id=76</a></p></section>
+            <section><p>Follow the tutorial at
+<a href="https://kvonholzen.github.io/Tutorials_Audio_Praat_segmentation.html">https://kvonholzen.github.io/Tutorials_Audio_Praat_segmentation.html</a></p></section>
             
           </div>
           <div class="presenter_notes">
@@ -1536,7 +1534,7 @@ pre { background: #fdf6e3; color: #586e75; }
             
             
             <aside class="source">
-              Source: <a href="lecture8.md">lecture8.md</a>
+              Source: <a href="lecture9.md">lecture9.md</a>
             </aside>
             
             <aside class="page_number">
@@ -1561,19 +1559,19 @@ pre { background: #fdf6e3; color: #586e75; }
       <!-- generating sections of TOC -->
       
       <tr id="toc-row-1">
-        <th><a href="#slide:1">Pseudoword generation</a></th>
+        <th><a href="#slide:1">Sound manipulation</a></th>
         <td><a href="#slide:1">1</a></td>
       </tr>
       
       
       <tr id="toc-row-2">
-        <th><a href="#slide:2">Lexical Frequency Distributions</a></th>
+        <th><a href="#slide:2">Signal detection experiment</a></th>
         <td><a href="#slide:2">2</a></td>
       </tr>
       
       
       <tr id="toc-row-3">
-        <th><a href="#slide:3">The Lexique database</a></th>
+        <th><a href="#slide:3">Segmenting and extracting audio stimuli with Praat</a></th>
         <td><a href="#slide:3">3</a></td>
       </tr>
       

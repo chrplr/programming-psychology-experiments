@@ -33,15 +33,6 @@ To view it and query it interactively, use the _OpenlexiconApp_ from https://ope
 
 To query it from R, see <https://github.com/chrplr/openlexicon/blob/master/documents/Interroger-Lexique-avec-R/interroger-lexique-avec-R.pdf>
 
-The query it from Python, check  <http://www.lexique.org/?page_id=76>
-
-
----
-
-# Segmenting and extracting audio stimuli with Praat
-
-
-Follow the tutorial at
-<https://kvonholzen.github.io/Tutorials_Audio_Praat_segmentation.html>
+To query it from Python, check  <http://www.lexique.org/?page_id=76>
 
 
