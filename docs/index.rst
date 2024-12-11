@@ -20,7 +20,9 @@ Git repository on github (contains slides, solutions to exercices, and more)
    dynamic-stimuli.rst
    audio-stimuli.rst
    getting-responses.rst
+   lexical-decision.rst
    jspsych-basics-the-timeline.md
    jspsych-nodes-and-trials.md
+   tips-to-write-clean-code.rst
    arduino_response_key.md
    triggers.md
