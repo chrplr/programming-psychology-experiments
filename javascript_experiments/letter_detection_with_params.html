@@ -17,7 +17,7 @@
     function createKeyPressTrial(targetKey, lowerCase, keys, blankDuration){
       let stimulusDisplayTrial = {
         type: jsPsychHtmlKeyboardResponse,
-        // if x then y else z
+        // Equivalent to if x then y else z
         stimulus: lowerCase ? targetKey.toLocaleLowerCase() : targetKey.toUpperCase();
         choices: keys,
         post_trial_gap: blankDuration,
