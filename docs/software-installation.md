@@ -144,7 +144,7 @@ pip install pygame
 
 ## Expyriment
 
-[Expyriment](http://www.experiment.org) is a Python module to program psychology experiments
+[Expyriment](http://www.expyriment.org) is a Python module to program psychology experiments
 
 
 To install the latest development version, type:
