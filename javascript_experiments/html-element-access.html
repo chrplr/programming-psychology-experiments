@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML basic elements</title>
+  </head>
+  <body>
+  </body>
+  <script type="text/javascript">
+    // Create the div
+    let myDiv = document.createElement("div")
+
+    // Assign it an ID
+    myDiv.id = "myDiv";
+
+    // Add it to the document!
+    document.body.addChild(myDiv);
+
+    // Define what we will add into the divisor
+    let htmlCode = `
+      <p>This is a paragraph added with JavaScript!</p>
+    `;
+
+    // Get the div again (this is actually suboptimal but allows me to use the getElementById method)
+    let myDivFromDocument = document.getElementById("myDiv")
+
+    // Add an html content
+    myDivFromDocument.innerHTML = htmlCode;
+  </script>
+</html>

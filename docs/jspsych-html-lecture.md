@@ -222,8 +222,133 @@ Border radius defines how round the corners of an element are. We will simply re
 
 #### Positioning
 
-Three ways: relative, absolute, flex.
+In HTML, you have many ways of positioning objects. We will focus on two here:
+- absolute (you place items relative to the page's borders)
+- relative (you place items relative to the parent element borders)
 
-### Canvas
+You can specify the type of positioning you want with the `position` property in the style of your element. Then, you can use `top`, `left`, `right`, and `bottom` to specify where to place the element.
 
-You draw on them using javascript!
+```html
+<div style="background-color: grey">
+  <p style="position: relative; top:40px; left: 40px">This paragraph is placed relative to the div</p>
+  <p style="position: absolute; top:40px; left: 40px">This paragraph is place with absolute positioning</p>
+</div>
+```
+
+You can play a bit more with positioning [on this page](https://developer.mozilla.org/en-US/docs/Web/CSS/position).
+
+## Creating HTML with JavaScript
+
+So far, we have been writing a description of our webpage using HTML. However, there are several reasons to want to use JavaScript to create the page.
+- First, writing everything in HTML can be tedious if you have many elements.
+- Second, HTML, by default, is strongly NOT responsive, meaning that you almost only display static things.
+- At last, jsPsych is based on JavaScript, so... we need to use it at some point.
+
+From now on, all our files will create HTML description from scratch.
+
+### HTML as a string
+
+As we've seen with jsPsych (see the `stimulus` parameter of [any plugin](https://www.jspsych.org/latest/overview/plugins/#parameters-available-in-all-plugins)), HTML can be simply written as a string, as long as you follow the HTML format. In jsPsych, we then only have to give the HTML as a parameter. Here, we have to use it ourselves by defining it as the `innerHTML` of an element.
+
+```javascript
+element.innerHTML = "<p>This is a paragraph added with JavaScript!</p>";
+```
+
+It can sometimes be convenient to overwrite anything that is on the page. To do so, you can use the global variable `document`, which to the current HTML script, and call `document.body` to access its `<body>` element, as in [this example](../javascript_experiments/html-with-js-basic.html).
+
+If you don't want to override everything, you can use the `+=` operator instead.
+
+**Small exercise (5mn):**
+Make a code displaying twenty numbered lines, by using a `for` loop (we talked about them [here](https://programming-psychology-experiments.readthedocs.io/en/latest/jspsych-basics-the-timeline.html#javascript-basics)).
+
+### Accessing elements
+
+But sometimes, we'll want to access an element directly. You can brute force your way by calling the `children` property of any element (try `document.body.children` in your browser's console).
+
+The most straightforward way, however, is to call the `document.getElementById(ID)` method, which will allow you to an access an element based on its `id`. The `id` of an element is an attribute that is defined in the same way as its `style`. Note that each ID should be **unique**!
+
+```html
+<div id="mydiv"></div>
+```
+
+### Creating elements
+
+In complex projects, what you will want to do is not only to access existing elements, but also create elements on the fly. The method ```document.createElement(type)``` returns an element of the desired type (`div`, `p`...).
+
+```javascript
+let paragraph = document.createElement("p");
+paragraph.innerHtml = "We just created a new paragraph!";
+```
+
+You will then be able to modify the element's attributes, such as style which can be defined it with a CSS-formatted string (just like in HTML).
+
+```javascript
+paragraph.style = "background-color: grey";
+```
+
+There is still one missing, crucial step: adding the element to the document! If you remember the nested-structure of HTML, you will first have to get the parent element of your newly created element, and then call its `addChild` method. In the example below, we will simply want to add it to the document body.
+
+```javascript
+document.body.addChild(paragraph);
+```
+
+You can find a code summary of everything we discussed above in [this script](../javascript_experiments/html-element-access).
+
+**Exercise 1: (20 mn)**
+Create a Hermann Grid illusion using JavaScript. Make it as clean as you can! Small hint: use divs to create some square!
+
+## SVGs
+
+Divs can be convenient, quick ways to get basic shapes like circles and squares. However, more complex shapes will require you to actually specify how to draw them. In HTML, you have two main elements for this: `canvas` and `svg`. As the name suggest, `canvas` act like a canvas on which you can draw whatever you want. They require JavaScript for this, use a somewhat complicated syntax, and their individual elements can not be changed.
+
+For these reasons, we will only focus on *Scalable Vector Graphics* (SVG) which are much more HTML-like. In fact, they work like most HTML elements: you nest individual stuff to draw into the `svg` tag.
+
+You have some built-in specifications such as the `circle` shape. This one takes three specific parameters: `cx` and `cy` for the center coordinates, and `r` for the radius. All values have to be specified without units (since pixels will be applied by default). You can also, as for other shapes, specify information about `fill` and `stroke` (more info [here](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Fills_and_Strokes)).
+
+```
+<svg style = "height: 200px; width: 200px">
+  <circle cx="100" cy="100" r="100" fill="red"/>
+</svg>
+```
+
+Another kind of shape you may want to draw is a polygon. Here, you only have to specify the `points` to draw it.
+
+```
+<svg style = "height: 200px; width: 200px">
+  <polygon points="0 0, 0 200, 200 200, 200 0" fill="red" />
+</svg>
+```
+
+**Small exercise (10mn):**
+Create a function that draws/returns an equilateral triangle SVG with a blue border (and empty interior). The function should take the side length as a parameter. Call it to draw a triangle with a 300px-long border. Two pieces of advice: use pen and paper; and pay attention to the style of the SVG!
+
+## Final (?) words
+
+With all we've seen, you should get a grasp on how to create varied stimuli. It may be slightly more complicated than python at times, but all this allows for clean and very versatile online experiments.
+
+Below are some leftovers that were not included in the lecture but could be interesting to discuss if we have time.
+
+### Turning HTML content reactive: mouse movement.
+
+The `addEventListener` method that you can call on any element.
+
+```javascript
+function onMouseMove(e){
+    /* ... */
+};
+
+let trial = {
+  /* ... */
+  on_load: function(){
+    document.addEventListener("mousemove", onMouseMove);
+  },
+  on_finish: function(){
+    document.removeEventLister("mousemove", onMouseMove);
+  }
+}
+```
+
+### Life savers
+
+- on_close
+- preload
