@@ -23,6 +23,7 @@ Git repository on github (contains slides, solutions to exercices, and more)
    lexical-decision.rst
    jspsych-basics-the-timeline.md
    jspsych-nodes-and-trials.md
+   jspsych-html-lecture.md
    tips-to-write-clean-code.rst
    arduino_response_key.md
    triggers.md
