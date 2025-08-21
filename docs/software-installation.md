@@ -144,13 +144,13 @@ pip install pygame
 
 ## Expyriment
 
-[Expyriment](http://www.expyriment.org) is a Python module to program psychology experiments
+[Expyriment](http://www.expyriment.org) is a Python module to program psychology experiments.
 
 
-To install the latest development version, type:
+To install it, follow the instructions at https://docs.expyriment.org/Installation.html.  In a nutshell:
 
 ```
-python -m pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple --pre expyriment
+pipx install expyriment
 ```
 
 Then,  run:
@@ -161,5 +161,5 @@ expyriment -D
 
 And type `master` when given a choice to select a branch. 
 
-:::{note} (only for advanced python users): you might want to create a virtual environment for expyriment (with conda, pyenv, uv...)
+:::{note} (advanced users) if you do not want to use [pipx](https://pipx.pypa.io/stable/), you can create your own a virtual environment for expyriment (with conda, pyenv, uv...)
 :::
