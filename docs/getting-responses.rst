@@ -68,12 +68,69 @@ Then, in the subfolder ``data``, locate a file with a name starting with  ``simp
     python analyse_rt.py data/simple-detection-visual-expyriment_*.xpd 
 
 
-Compare the codes of ``simple-detection-visual-expyriment.py`` and ``simple-detection-visual-pygame.py``. This should convince you that using expyriment will make your life simpler if you need to program a psychology experiment.
+Compare the codes of ``simple-detection-visual-expyriment.py`` and ``simple-detection-visual-pygame.py``.
 
-The documentation of expyriment is available at http://docs.expyriment.org/. Have q a quick look at it, especially http://docs.expyriment.org/expyriment.stimuli.html
 
-The basic principles of the ``expyriment`` module are introduced in https://docs.expyriment.org/Tutorial.html. 
-I provide a minimal template at :download:`expyriment_minimal_template.py <../experiments/expyriment_minimal_template.py>` that one can use to start writing a expyriment script.
+The core of  ``simple-detection-visual-expyriment.py`` is:
+
+::
+   
+    instructions.present()
+    exp.keyboard.wait()
+
+    for i_trial in range(N_TRIALS):
+        blankscreen.present()
+        waiting_time = random.randint(MIN_WAIT_TIME, MAX_WAIT_TIME)
+        exp.clock.wait(waiting_time)
+        target.present()
+        key, rt = exp.keyboard.wait(duration=MAX_RESPONSE_DELAY)
+
+which is rather self-explanatory: instructions are presented and the computer waits for a keypress, then start a loop over trials  consistening of the presentation of a target stimulus after a random amount of time, and the recording of a the participant's response (keypress and the associated reaction time).
+
+This should convince you that using expyriment will make your life simpler if you need to program a psychology experiment.
+
+The skeleton of an expyriment script is as follows::
+
+  from expyriment import design, control, stimuli
+  exp = design.Experiment(name="Experiment")
+
+  control.initialize(exp)
+  # creation of stimuli, trials,...
+  
+  control.start()
+  # presentation of the stimuli
+
+  control.end()
+
+
+Here is a simple example where either a disk or a rectangle is presented at each trial::
+
+  import random
+  from expyriment import design, control, stimuli
+  exp = design.Experiment(name="Experiment")
+
+  control.initialize(exp)
+  
+  trials = [("circle", stimuli.Circle(20)),
+            ("rectangle", stimuli.Rectangle((40, 40)))] * 10
+  random.shuffle(trials)
+  
+  control.start()
+  stimuli.TextLine("When you see a cirle press 'f', a rectangle 'j'").present()
+  exp.keyboard.wait()
+  for condition, shape in trials:
+      shape.present()
+      key, rt = exp.keyboard.wait()
+      exp.data.add([condition, key, rt])
+      stimuli.BlankScreen().present()
+      exp.clock.wait(1500)
+
+  
+  control.end()
+
+
+The full documentation of expyriment is available at http://docs.expyriment.org/. Have a quick look at it, especially http://docs.expyriment.org/expyriment.stimuli.html which describe the basic stimuli that can be created. The basic principles of the ``expyriment`` module are introduced in https://docs.expyriment.org/Tutorial.html
+
 
 Exercises:
 
